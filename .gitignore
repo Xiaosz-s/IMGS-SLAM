@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+outputs/
+data/
+datasets/
+pretrained_models/
+.DS_Store
+03_Datasets
