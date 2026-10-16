@@ -1,0 +1,20 @@
+#ifndef EIGEN_ITERATIVELINEARSOLVERS_MODULE_H
+#define EIGEN_ITERATIVELINEARSOLVERS_MODULE_H
+
+#include "SparseCore"
+#include "OrderingMethods"
+
+#include "src/Core/util/DisableStupidWarnings.h"
+
+#include "src/IterativeLinearSolvers/SolveWithGuess.h"
+#include "src/IterativeLinearSolvers/IterativeSolverBase.h"
+#include "src/IterativeLinearSolvers/BasicPreconditioners.h"
+#include "src/IterativeLinearSolvers/ConjugateGradient.h"
+#include "src/IterativeLinearSolvers/LeastSquareConjugateGradient.h"
+#include "src/IterativeLinearSolvers/BiCGSTAB.h"
+#include "src/IterativeLinearSolvers/IncompleteLUT.h"
+#include "src/IterativeLinearSolvers/IncompleteCholesky.h"
+
+#include "src/Core/util/ReenableStupidWarnings.h"
+
+#endif 

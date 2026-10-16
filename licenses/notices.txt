@@ -1,0 +1,2857 @@
+native/eigen/Eigen/StdList
+native/eigen/Eigen/StdVector
+native/eigen/Eigen/StdDeque
+native/eigen/Eigen/src/StlSupport/StdVector.h
+native/eigen/Eigen/src/StlSupport/StdDeque.h
+native/eigen/Eigen/src/StlSupport/details.h
+native/eigen/Eigen/src/StlSupport/StdList.h
+// Copyright (C) 2009 Hauke Heibel <hauke.heibel@googlemail.com>
+
+native/eigen/Eigen/StdList
+native/eigen/Eigen/SparseQR
+native/eigen/Eigen/OrderingMethods
+native/eigen/Eigen/Geometry
+native/eigen/Eigen/SPQRSupport
+native/eigen/Eigen/SVD
+native/eigen/Eigen/SparseLU
+native/eigen/Eigen/Core
+native/eigen/Eigen/SparseCholesky
+native/eigen/Eigen/SparseCore
+native/eigen/Eigen/StdVector
+native/eigen/Eigen/CholmodSupport
+native/eigen/Eigen/SuperLUSupport
+native/eigen/Eigen/QtAlignedMalloc
+native/eigen/Eigen/IterativeLinearSolvers
+native/eigen/Eigen/KLUSupport
+native/eigen/Eigen/Householder
+native/eigen/Eigen/Cholesky
+native/eigen/Eigen/StdDeque
+native/eigen/Eigen/PaStiXSupport
+native/eigen/Eigen/UmfPackSupport
+native/eigen/Eigen/Jacobi
+native/eigen/Eigen/QR
+native/eigen/Eigen/PardisoSupport
+native/eigen/Eigen/Eigenvalues
+native/eigen/Eigen/LU
+native/eigen/Eigen/Sparse
+native/eigen/Eigen/MetisSupport
+native/eigen/Eigen/src/SparseQR/SparseQR.h
+native/eigen/Eigen/src/OrderingMethods/Eigen_Colamd.h
+native/eigen/Eigen/src/OrderingMethods/Ordering.h
+native/eigen/Eigen/src/OrderingMethods/Amd.h
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+native/eigen/Eigen/src/Geometry/Hyperplane.h
+native/eigen/Eigen/src/Geometry/Quaternion.h
+native/eigen/Eigen/src/Geometry/RotationBase.h
+native/eigen/Eigen/src/Geometry/OrthoMethods.h
+native/eigen/Eigen/src/Geometry/Transform.h
+native/eigen/Eigen/src/Geometry/Translation.h
+native/eigen/Eigen/src/Geometry/EulerAngles.h
+native/eigen/Eigen/src/Geometry/Umeyama.h
+native/eigen/Eigen/src/Geometry/ParametrizedLine.h
+native/eigen/Eigen/src/Geometry/Scaling.h
+native/eigen/Eigen/src/Geometry/AngleAxis.h
+native/eigen/Eigen/src/Geometry/Homogeneous.h
+native/eigen/Eigen/src/Geometry/Rotation2D.h
+native/eigen/Eigen/src/Geometry/arch/Geometry_SIMD.h
+native/eigen/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+native/eigen/Eigen/src/SVD/UpperBidiagonalization.h
+native/eigen/Eigen/src/SVD/SVDBase.h
+native/eigen/Eigen/src/SVD/JacobiSVD.h
+native/eigen/Eigen/src/SVD/BDCSVD.h
+native/eigen/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+native/eigen/Eigen/src/SparseLU/SparseLUImpl.h
+native/eigen/Eigen/src/SparseLU/SparseLU_pruneL.h
+native/eigen/Eigen/src/SparseLU/SparseLU_Utils.h
+native/eigen/Eigen/src/SparseLU/SparseLU.h
+native/eigen/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+native/eigen/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+native/eigen/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+native/eigen/Eigen/src/SparseLU/SparseLU_pivotL.h
+native/eigen/Eigen/src/SparseLU/SparseLU_Memory.h
+native/eigen/Eigen/src/SparseLU/SparseLU_Structs.h
+native/eigen/Eigen/src/SparseLU/SparseLU_column_dfs.h
+native/eigen/Eigen/src/SparseLU/SparseLU_column_bmod.h
+native/eigen/Eigen/src/SparseLU/SparseLU_relax_snode.h
+native/eigen/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+native/eigen/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+native/eigen/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+native/eigen/Eigen/src/Core/ArrayBase.h
+native/eigen/Eigen/src/Core/MapBase.h
+native/eigen/Eigen/src/Core/VectorBlock.h
+native/eigen/Eigen/src/Core/Fuzzy.h
+native/eigen/Eigen/src/Core/Visitor.h
+native/eigen/Eigen/src/Core/TriangularMatrix.h
+native/eigen/Eigen/src/Core/ArithmeticSequence.h
+native/eigen/Eigen/src/Core/Map.h
+native/eigen/Eigen/src/Core/SelfAdjointView.h
+native/eigen/Eigen/src/Core/IndexedView.h
+native/eigen/Eigen/src/Core/VectorwiseOp.h
+native/eigen/Eigen/src/Core/DiagonalMatrix.h
+native/eigen/Eigen/src/Core/Inverse.h
+native/eigen/Eigen/src/Core/IO.h
+native/eigen/Eigen/src/Core/BooleanRedux.h
+native/eigen/Eigen/src/Core/NumTraits.h
+native/eigen/Eigen/src/Core/DenseCoeffsBase.h
+native/eigen/Eigen/src/Core/Swap.h
+native/eigen/Eigen/src/Core/Ref.h
+native/eigen/Eigen/src/Core/CoreEvaluators.h
+native/eigen/Eigen/src/Core/MathFunctions.h
+native/eigen/Eigen/src/Core/MatrixBase.h
+native/eigen/Eigen/src/Core/EigenBase.h
+native/eigen/Eigen/src/Core/SolverBase.h
+native/eigen/Eigen/src/Core/AssignEvaluator.h
+native/eigen/Eigen/src/Core/CwiseBinaryOp.h
+native/eigen/Eigen/src/Core/Block.h
+native/eigen/Eigen/src/Core/NoAlias.h
+native/eigen/Eigen/src/Core/CwiseNullaryOp.h
+native/eigen/Eigen/src/Core/PlainObjectBase.h
+native/eigen/Eigen/src/Core/ArrayWrapper.h
+native/eigen/Eigen/src/Core/Reverse.h
+native/eigen/Eigen/src/Core/Matrix.h
+native/eigen/Eigen/src/Core/NestByValue.h
+native/eigen/Eigen/src/Core/SelfCwiseBinaryOp.h
+native/eigen/Eigen/src/Core/CwiseUnaryOp.h
+native/eigen/Eigen/src/Core/ConditionEstimator.h
+native/eigen/Eigen/src/Core/Diagonal.h
+native/eigen/Eigen/src/Core/DenseStorage.h
+native/eigen/Eigen/src/Core/Product.h
+native/eigen/Eigen/src/Core/PartialReduxEvaluator.h
+native/eigen/Eigen/src/Core/GeneralProduct.h
+native/eigen/Eigen/src/Core/Select.h
+native/eigen/Eigen/src/Core/GlobalFunctions.h
+native/eigen/Eigen/src/Core/Stride.h
+native/eigen/Eigen/src/Core/Reshaped.h
+native/eigen/Eigen/src/Core/ForceAlignedAccess.h
+native/eigen/Eigen/src/Core/Transpose.h
+native/eigen/Eigen/src/Core/Random.h
+native/eigen/Eigen/src/Core/Dot.h
+native/eigen/Eigen/src/Core/StlIterators.h
+native/eigen/Eigen/src/Core/PermutationMatrix.h
+native/eigen/Eigen/src/Core/CwiseTernaryOp.h
+native/eigen/Eigen/src/Core/SolveTriangular.h
+native/eigen/Eigen/src/Core/Replicate.h
+native/eigen/Eigen/src/Core/DiagonalProduct.h
+native/eigen/Eigen/src/Core/Assign.h
+native/eigen/Eigen/src/Core/MathFunctionsImpl.h
+native/eigen/Eigen/src/Core/DenseBase.h
+native/eigen/Eigen/src/Core/BandMatrix.h
+native/eigen/Eigen/src/Core/StableNorm.h
+native/eigen/Eigen/src/Core/Transpositions.h
+native/eigen/Eigen/src/Core/ProductEvaluators.h
+native/eigen/Eigen/src/Core/CommaInitializer.h
+native/eigen/Eigen/src/Core/Redux.h
+native/eigen/Eigen/src/Core/Solve.h
+native/eigen/Eigen/src/Core/GenericPacketMath.h
+native/eigen/Eigen/src/Core/CwiseUnaryView.h
+native/eigen/Eigen/src/Core/CoreIterators.h
+native/eigen/Eigen/src/Core/ReturnByValue.h
+native/eigen/Eigen/src/Core/Array.h
+native/eigen/Eigen/src/Core/util/Meta.h
+native/eigen/Eigen/src/Core/util/StaticAssert.h
+native/eigen/Eigen/src/Core/util/ForwardDeclarations.h
+native/eigen/Eigen/src/Core/util/BlasUtil.h
+native/eigen/Eigen/src/Core/util/ReshapedHelper.h
+native/eigen/Eigen/src/Core/util/Macros.h
+native/eigen/Eigen/src/Core/util/IndexedViewHelper.h
+native/eigen/Eigen/src/Core/util/ConfigureVectorization.h
+native/eigen/Eigen/src/Core/util/Constants.h
+native/eigen/Eigen/src/Core/util/Memory.h
+native/eigen/Eigen/src/Core/util/XprHelper.h
+native/eigen/Eigen/src/Core/util/SymbolicIndex.h
+native/eigen/Eigen/src/Core/util/IntegralConstant.h
+native/eigen/Eigen/src/Core/arch/SVE/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/SVE/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/SVE/PacketMath.h
+native/eigen/Eigen/src/Core/arch/Default/Settings.h
+native/eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+native/eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+native/eigen/Eigen/src/Core/arch/Default/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/Default/ConjHelper.h
+native/eigen/Eigen/src/Core/arch/Default/Half.h
+native/eigen/Eigen/src/Core/arch/MSA/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/MSA/Complex.h
+native/eigen/Eigen/src/Core/arch/MSA/PacketMath.h
+native/eigen/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+native/eigen/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+native/eigen/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/AltiVec/Complex.h
+native/eigen/Eigen/src/Core/arch/AltiVec/PacketMath.h
+native/eigen/Eigen/src/Core/arch/SSE/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/SSE/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/SSE/Complex.h
+native/eigen/Eigen/src/Core/arch/SSE/PacketMath.h
+native/eigen/Eigen/src/Core/arch/CUDA/Complex.h
+native/eigen/Eigen/src/Core/arch/ZVector/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/ZVector/Complex.h
+native/eigen/Eigen/src/Core/arch/ZVector/PacketMath.h
+native/eigen/Eigen/src/Core/arch/GPU/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/GPU/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/GPU/PacketMath.h
+native/eigen/Eigen/src/Core/arch/AVX512/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/AVX512/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/AVX512/Complex.h
+native/eigen/Eigen/src/Core/arch/AVX512/PacketMath.h
+native/eigen/Eigen/src/Core/arch/AVX/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/AVX/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/AVX/Complex.h
+native/eigen/Eigen/src/Core/arch/AVX/PacketMath.h
+native/eigen/Eigen/src/Core/arch/NEON/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/NEON/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/NEON/Complex.h
+native/eigen/Eigen/src/Core/arch/NEON/PacketMath.h
+native/eigen/Eigen/src/Core/arch/SYCL/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/SYCL/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/SYCL/InteropHeaders.h
+native/eigen/Eigen/src/Core/arch/SYCL/PacketMath.h
+native/eigen/Eigen/src/Core/products/GeneralMatrixMatrix.h
+native/eigen/Eigen/src/Core/products/TriangularSolverVector.h
+native/eigen/Eigen/src/Core/products/SelfadjointRank2Update.h
+native/eigen/Eigen/src/Core/products/Parallelizer.h
+native/eigen/Eigen/src/Core/products/GeneralMatrixVector.h
+native/eigen/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+native/eigen/Eigen/src/Core/products/SelfadjointProduct.h
+native/eigen/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+native/eigen/Eigen/src/Core/products/SelfadjointMatrixVector.h
+native/eigen/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+native/eigen/Eigen/src/Core/products/TriangularMatrixMatrix.h
+native/eigen/Eigen/src/Core/products/TriangularMatrixVector.h
+native/eigen/Eigen/src/Core/products/TriangularSolverMatrix.h
+native/eigen/Eigen/src/Core/functors/NullaryFunctors.h
+native/eigen/Eigen/src/Core/functors/BinaryFunctors.h
+native/eigen/Eigen/src/Core/functors/UnaryFunctors.h
+native/eigen/Eigen/src/Core/functors/StlFunctors.h
+native/eigen/Eigen/src/Core/functors/AssignmentFunctors.h
+native/eigen/Eigen/src/Core/functors/TernaryFunctors.h
+native/eigen/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+native/eigen/Eigen/src/SparseCholesky/SimplicialCholesky.h
+native/eigen/Eigen/src/SparseCore/CompressedStorage.h
+native/eigen/Eigen/src/SparseCore/SparseDenseProduct.h
+native/eigen/Eigen/src/SparseCore/SparseProduct.h
+native/eigen/Eigen/src/SparseCore/SparseSelfAdjointView.h
+native/eigen/Eigen/src/SparseCore/TriangularSolver.h
+native/eigen/Eigen/src/SparseCore/SparseRef.h
+native/eigen/Eigen/src/SparseCore/SparseTriangularView.h
+native/eigen/Eigen/src/SparseCore/AmbiVector.h
+native/eigen/Eigen/src/SparseCore/SparseMatrixBase.h
+native/eigen/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+native/eigen/Eigen/src/SparseCore/MappedSparseMatrix.h
+native/eigen/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+native/eigen/Eigen/src/SparseCore/SparsePermutation.h
+native/eigen/Eigen/src/SparseCore/SparseRedux.h
+native/eigen/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+native/eigen/Eigen/src/SparseCore/SparseFuzzy.h
+native/eigen/Eigen/src/SparseCore/SparseVector.h
+native/eigen/Eigen/src/SparseCore/SparseTranspose.h
+native/eigen/Eigen/src/SparseCore/SparseAssign.h
+native/eigen/Eigen/src/SparseCore/SparseSolverBase.h
+native/eigen/Eigen/src/SparseCore/SparseMap.h
+native/eigen/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+native/eigen/Eigen/src/SparseCore/SparseBlock.h
+native/eigen/Eigen/src/SparseCore/SparseMatrix.h
+native/eigen/Eigen/src/SparseCore/SparseView.h
+native/eigen/Eigen/src/SparseCore/SparseCompressedBase.h
+native/eigen/Eigen/src/SparseCore/SparseColEtree.h
+native/eigen/Eigen/src/SparseCore/SparseUtil.h
+native/eigen/Eigen/src/SparseCore/SparseDot.h
+native/eigen/Eigen/src/SparseCore/SparseDiagonalProduct.h
+native/eigen/Eigen/src/CholmodSupport/CholmodSupport.h
+native/eigen/Eigen/src/SuperLUSupport/SuperLUSupport.h
+native/eigen/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
+native/eigen/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+native/eigen/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+native/eigen/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+native/eigen/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+native/eigen/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+native/eigen/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+native/eigen/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+native/eigen/Eigen/src/KLUSupport/KLUSupport.h
+native/eigen/Eigen/src/Householder/BlockHouseholder.h
+native/eigen/Eigen/src/Householder/Householder.h
+native/eigen/Eigen/src/Householder/HouseholderSequence.h
+native/eigen/Eigen/src/plugins/CommonCwiseBinaryOps.h
+native/eigen/Eigen/src/plugins/BlockMethods.h
+native/eigen/Eigen/src/plugins/IndexedViewMethods.h
+native/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+native/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+native/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
+native/eigen/Eigen/src/Cholesky/LDLT.h
+native/eigen/Eigen/src/Cholesky/LLT.h
+native/eigen/Eigen/src/PaStiXSupport/PaStiXSupport.h
+native/eigen/Eigen/src/UmfPackSupport/UmfPackSupport.h
+native/eigen/Eigen/src/Jacobi/Jacobi.h
+native/eigen/Eigen/src/QR/HouseholderQR.h
+native/eigen/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+native/eigen/Eigen/src/QR/FullPivHouseholderQR.h
+native/eigen/Eigen/src/QR/ColPivHouseholderQR.h
+native/eigen/Eigen/src/misc/RealSvd2x2.h
+native/eigen/Eigen/src/misc/Kernel.h
+native/eigen/Eigen/src/misc/Image.h
+native/eigen/Eigen/src/StlSupport/StdVector.h
+native/eigen/Eigen/src/StlSupport/StdDeque.h
+native/eigen/Eigen/src/StlSupport/details.h
+native/eigen/Eigen/src/StlSupport/StdList.h
+native/eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+native/eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+native/eigen/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+native/eigen/Eigen/src/Eigenvalues/Tridiagonalization.h
+native/eigen/Eigen/src/Eigenvalues/RealSchur.h
+native/eigen/Eigen/src/Eigenvalues/EigenSolver.h
+native/eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+native/eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+native/eigen/Eigen/src/Eigenvalues/ComplexSchur.h
+native/eigen/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+native/eigen/Eigen/src/Eigenvalues/RealQZ.h
+native/eigen/Eigen/src/LU/FullPivLU.h
+native/eigen/Eigen/src/LU/Determinant.h
+native/eigen/Eigen/src/LU/InverseImpl.h
+native/eigen/Eigen/src/LU/PartialPivLU.h
+native/eigen/Eigen/src/LU/arch/InverseSize4.h
+native/eigen/Eigen/src/MetisSupport/MetisSupport.h
+native/eigen/unsupported/Eigen/MatrixFunctions
+native/eigen/unsupported/Eigen/Polynomials
+native/eigen/unsupported/Eigen/SpecialFunctions
+native/eigen/unsupported/Eigen/AdolcForward
+native/eigen/unsupported/Eigen/AlignedVector3
+native/eigen/unsupported/Eigen/IterativeSolvers
+native/eigen/unsupported/Eigen/BVH
+native/eigen/unsupported/Eigen/NumericalDiff
+native/eigen/unsupported/Eigen/LevenbergMarquardt
+native/eigen/unsupported/Eigen/MoreVectorization
+native/eigen/unsupported/Eigen/KroneckerProduct
+native/eigen/unsupported/Eigen/AutoDiff
+native/eigen/unsupported/Eigen/FFT
+native/eigen/unsupported/Eigen/NonLinearOptimization
+native/eigen/unsupported/Eigen/MPRealSupport
+native/eigen/unsupported/Eigen/SparseExtra
+native/eigen/unsupported/Eigen/ArpackSupport
+native/eigen/unsupported/Eigen/OpenGLSupport
+native/eigen/unsupported/Eigen/EulerAngles
+native/eigen/unsupported/Eigen/Splines
+native/eigen/unsupported/Eigen/Skyline
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h
+native/eigen/unsupported/Eigen/src/MatrixFunctions/StemFunction.h
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h
+native/eigen/unsupported/Eigen/src/Polynomials/PolynomialUtils.h
+native/eigen/unsupported/Eigen/src/Polynomials/Companion.h
+native/eigen/unsupported/Eigen/src/Polynomials/PolynomialSolver.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsPacketMath.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsHalf.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsBFloat16.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsArrayAPI.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsFunctors.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsHalf.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsPacketMath.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsBFloat16.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsArrayAPI.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsImpl.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/arch/GPU/SpecialFunctions.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/MINRES.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IDRS.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/GMRES.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/DGMRES.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/Scaling.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IncompleteLU.h
+native/eigen/unsupported/Eigen/src/BVH/KdBVH.h
+native/eigen/unsupported/Eigen/src/BVH/BVAlgorithms.h
+native/eigen/unsupported/Eigen/src/NumericalDiff/NumericalDiff.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+native/eigen/unsupported/Eigen/src/MoreVectorization/MathFunctions.h
+native/eigen/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h
+native/eigen/unsupported/Eigen/src/AutoDiff/AutoDiffScalar.h
+native/eigen/unsupported/Eigen/src/AutoDiff/AutoDiffVector.h
+native/eigen/unsupported/Eigen/src/AutoDiff/AutoDiffJacobian.h
+native/eigen/unsupported/Eigen/src/FFT/ei_fftw_impl.h
+native/eigen/unsupported/Eigen/src/FFT/ei_kissfft_impl.h
+native/eigen/unsupported/Eigen/src/NonLinearOptimization/LevenbergMarquardt.h
+native/eigen/unsupported/Eigen/src/NonLinearOptimization/HybridNonLinearSolver.h
+native/eigen/unsupported/Eigen/src/SparseExtra/RandomSetter.h
+native/eigen/unsupported/Eigen/src/SparseExtra/BlockSparseMatrix.h
+native/eigen/unsupported/Eigen/src/SparseExtra/MatrixMarketIterator.h
+native/eigen/unsupported/Eigen/src/SparseExtra/MarketIO.h
+native/eigen/unsupported/Eigen/src/Eigenvalues/ArpackSelfAdjointEigenSolver.h
+native/eigen/unsupported/Eigen/src/EulerAngles/EulerSystem.h
+native/eigen/unsupported/Eigen/src/EulerAngles/EulerAngles.h
+native/eigen/unsupported/Eigen/src/Splines/SplineFitting.h
+native/eigen/unsupported/Eigen/src/Splines/SplineFwd.h
+native/eigen/unsupported/Eigen/src/Splines/Spline.h
+native/eigen/unsupported/Eigen/src/Skyline/SkylineInplaceLU.h
+native/eigen/unsupported/Eigen/src/Skyline/SkylineUtil.h
+native/eigen/unsupported/Eigen/src/Skyline/SkylineMatrixBase.h
+native/eigen/unsupported/Eigen/src/Skyline/SkylineProduct.h
+native/eigen/unsupported/Eigen/src/Skyline/SkylineStorage.h
+native/eigen/unsupported/Eigen/src/Skyline/SkylineMatrix.h
+native/eigen/unsupported/Eigen/CXX11/ThreadPool
+native/eigen/unsupported/Eigen/CXX11/Tensor
+native/eigen/unsupported/Eigen/CXX11/TensorSymmetry
+native/eigen/unsupported/Eigen/CXX11/src/util/EmulateArray.h
+native/eigen/unsupported/Eigen/CXX11/src/util/MaxSizeVector.h
+native/eigen/unsupported/Eigen/CXX11/src/util/CXX11Workarounds.h
+native/eigen/unsupported/Eigen/CXX11/src/util/CXX11Meta.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/ThreadEnvironment.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/NonBlockingThreadPool.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/Barrier.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/ThreadLocal.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/RunQueue.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/EventCount.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/ThreadYield.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/ThreadPoolInterface.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/ThreadCancel.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorReverse.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorPatch.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorFixedSize.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorReduction.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorUInt128.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceThreadPool.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceGpu.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorEvalTo.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorReductionGpu.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceSycl.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorScan.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMap.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContractionBlocking.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaDefines.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorStriding.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorPadding.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorTraits.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMorphing.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/Tensor.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorReductionSycl.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorConcatenation.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorRandom.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorTrace.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorBase.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorCustomOp.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaUndefines.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorCostModel.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorShuffling.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorScanSycl.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContractionGpu.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorStorage.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDimensionList.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceDefault.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorFunctors.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorImagePatch.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorFFT.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorAssign.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContractionThreadPool.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorForcedEval.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorGlobalFunctions.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMacros.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorLayoutSwap.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorInflation.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorIntDiv.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorExpr.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDevice.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorEvaluator.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorConvolutionSycl.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorGenerator.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorExecutor.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorChipping.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorInitializer.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorArgMax.h
+native/eigen/unsupported/Eigen/CXX11/src/TensorSymmetry/DynamicSymmetry.h
+native/eigen/unsupported/Eigen/CXX11/src/TensorSymmetry/StaticSymmetry.h
+native/eigen/unsupported/Eigen/CXX11/src/TensorSymmetry/Symmetry.h
+native/eigen/unsupported/Eigen/CXX11/src/TensorSymmetry/util/TemplateGroupTheory.h
+// Public License v. 2.0. If a copy of the MPL was not distributed
+
+native/eigen/Eigen/SparseLU
+native/eigen/Eigen/src/SparseLU/SparseLUImpl.h
+native/eigen/Eigen/src/SparseLU/SparseLU_pruneL.h
+native/eigen/Eigen/src/SparseLU/SparseLU_Utils.h
+native/eigen/Eigen/src/SparseLU/SparseLU.h
+native/eigen/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+native/eigen/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+native/eigen/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+native/eigen/Eigen/src/SparseLU/SparseLU_pivotL.h
+native/eigen/Eigen/src/SparseLU/SparseLU_Memory.h
+native/eigen/Eigen/src/SparseLU/SparseLU_Structs.h
+native/eigen/Eigen/src/SparseLU/SparseLU_column_dfs.h
+native/eigen/Eigen/src/SparseLU/SparseLU_column_bmod.h
+native/eigen/Eigen/src/SparseLU/SparseLU_relax_snode.h
+native/eigen/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+native/eigen/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+native/eigen/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+native/eigen/Eigen/src/SparseCore/SparseTriangularView.h
+native/eigen/Eigen/src/SparseCore/SparseColEtree.h
+native/eigen/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+native/eigen/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+native/eigen/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+native/eigen/Eigen/src/PaStiXSupport/PaStiXSupport.h
+native/eigen/Eigen/src/MetisSupport/MetisSupport.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/DGMRES.h
+// Copyright (C) 2012 Désiré Nuentsa-Wakam <desire.nuentsa_wakam@inria.fr>
+
+native/eigen/Eigen/SparseLU
+native/eigen/Eigen/src/SparseLU/SparseLU_gemm_kernel.h
+native/eigen/Eigen/src/SparseLU/SparseLU_column_bmod.h
+native/eigen/Eigen/src/SparseLU/SparseLU_kernel_bmod.h
+native/eigen/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+native/eigen/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h
+native/eigen/Eigen/src/Core/Ref.h
+native/eigen/Eigen/src/SparseCore/SparsePermutation.h
+// Copyright (C) 2012 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/Core
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+native/eigen/Eigen/src/Geometry/Hyperplane.h
+native/eigen/Eigen/src/Geometry/RotationBase.h
+native/eigen/Eigen/src/Geometry/Transform.h
+native/eigen/Eigen/src/Geometry/Translation.h
+native/eigen/Eigen/src/Geometry/EulerAngles.h
+native/eigen/Eigen/src/Geometry/ParametrizedLine.h
+native/eigen/Eigen/src/Geometry/Scaling.h
+native/eigen/Eigen/src/Geometry/AngleAxis.h
+native/eigen/Eigen/src/Geometry/Rotation2D.h
+native/eigen/Eigen/src/Core/MapBase.h
+native/eigen/Eigen/src/Core/Fuzzy.h
+native/eigen/Eigen/src/Core/Visitor.h
+native/eigen/Eigen/src/Core/Map.h
+native/eigen/Eigen/src/Core/IO.h
+native/eigen/Eigen/src/Core/BooleanRedux.h
+native/eigen/Eigen/src/Core/MatrixBase.h
+native/eigen/Eigen/src/Core/Block.h
+native/eigen/Eigen/src/Core/NestByValue.h
+native/eigen/Eigen/src/Core/DenseStorage.h
+native/eigen/Eigen/src/Core/Random.h
+native/eigen/Eigen/src/Core/DiagonalProduct.h
+native/eigen/Eigen/src/Core/Assign.h
+native/eigen/Eigen/src/Core/CommaInitializer.h
+native/eigen/Eigen/src/Core/Redux.h
+native/eigen/Eigen/src/Core/GenericPacketMath.h
+native/eigen/Eigen/src/Core/util/StaticAssert.h
+native/eigen/Eigen/src/Core/util/XprHelper.h
+native/eigen/Eigen/src/SparseCore/TriangularSolver.h
+native/eigen/Eigen/src/SparseCore/AmbiVector.h
+native/eigen/Eigen/src/SparseCore/SparseDot.h
+native/eigen/Eigen/src/Cholesky/LLT.h
+native/eigen/Eigen/src/Eigenvalues/Tridiagonalization.h
+native/eigen/Eigen/src/Eigenvalues/RealSchur.h
+native/eigen/Eigen/src/Eigenvalues/EigenSolver.h
+native/eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+native/eigen/unsupported/Eigen/src/SparseExtra/RandomSetter.h
+// Copyright (C) 2008 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/Core
+// Copyright (C) 2007-2011 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/SparseCholesky
+// Copyright (C) 2008-2013 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/StdVector
+native/eigen/Eigen/StdDeque
+native/eigen/Eigen/src/Core/ArrayBase.h
+native/eigen/Eigen/src/Core/SelfAdjointView.h
+native/eigen/Eigen/src/Core/DiagonalMatrix.h
+native/eigen/Eigen/src/Core/EigenBase.h
+native/eigen/Eigen/src/Core/NoAlias.h
+native/eigen/Eigen/src/Core/BandMatrix.h
+native/eigen/Eigen/src/Core/StableNorm.h
+native/eigen/Eigen/src/Core/Array.h
+native/eigen/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/SSE/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/ZVector/MathFunctions.h
+native/eigen/Eigen/src/Core/products/SelfadjointRank2Update.h
+native/eigen/Eigen/src/Core/products/SelfadjointProduct.h
+native/eigen/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+native/eigen/Eigen/src/Core/products/TriangularMatrixMatrix.h
+native/eigen/Eigen/src/Core/products/TriangularMatrixVector.h
+native/eigen/Eigen/src/Core/products/TriangularSolverMatrix.h
+native/eigen/Eigen/src/Householder/Householder.h
+native/eigen/Eigen/src/Householder/HouseholderSequence.h
+native/eigen/Eigen/src/Jacobi/Jacobi.h
+native/eigen/Eigen/src/StlSupport/StdVector.h
+native/eigen/Eigen/src/StlSupport/StdDeque.h
+native/eigen/Eigen/src/StlSupport/details.h
+native/eigen/Eigen/src/Eigenvalues/ComplexSchur.h
+native/eigen/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+native/eigen/Eigen/src/LU/PartialPivLU.h
+native/eigen/unsupported/Eigen/src/AutoDiff/AutoDiffScalar.h
+native/eigen/unsupported/Eigen/src/AutoDiff/AutoDiffVector.h
+native/eigen/unsupported/Eigen/src/AutoDiff/AutoDiffJacobian.h
+// Copyright (C) 2009 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/SparseQR/SparseQR.h
+// Copyright (C) 2012-2013 Desire Nuentsa <desire.nuentsa_wakam@inria.fr>
+
+native/eigen/Eigen/src/SparseQR/SparseQR.h
+native/eigen/Eigen/src/SparseLU/SparseLU.h
+// Copyright (C) 2012-2014 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/OrderingMethods/Eigen_Colamd.h
+// Copyright (C) 2012 Desire Nuentsa Wakam <desire.nuentsa_wakam@inria.fr>
+
+native/eigen/Eigen/src/OrderingMethods/Eigen_Colamd.h
+// This file is modified from the colamd/symamd library. The copyright is below
+
+native/eigen/Eigen/src/OrderingMethods/Eigen_Colamd.h
+//   Copyright (c) 1998-2003 by the University of Florida.
+
+native/eigen/Eigen/src/OrderingMethods/Eigen_Colamd.h
+//   All Rights Reserved.
+
+native/eigen/Eigen/src/OrderingMethods/Eigen_Colamd.h
+//   this program, provided that the Copyright, this License, and the
+
+native/eigen/Eigen/src/OrderingMethods/Ordering.h
+// Copyright (C) 2012  Désiré Nuentsa-Wakam <desire.nuentsa_wakam@inria.fr>
+
+native/eigen/Eigen/src/OrderingMethods/Amd.h
+native/eigen/Eigen/src/Core/arch/AltiVec/Complex.h
+native/eigen/Eigen/src/Core/arch/SSE/Complex.h
+native/eigen/Eigen/src/Core/arch/ZVector/Complex.h
+native/eigen/Eigen/src/Core/arch/NEON/Complex.h
+native/eigen/Eigen/src/Core/products/Parallelizer.h
+native/eigen/Eigen/src/Householder/BlockHouseholder.h
+native/eigen/Eigen/src/LU/arch/InverseSize4.h
+native/eigen/unsupported/Eigen/MPRealSupport
+native/eigen/unsupported/Eigen/OpenGLSupport
+// Copyright (C) 2010 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/OrderingMethods/Amd.h
+/*
+NOTE: this routine has been adapted from the CSparse library:
+
+Copyright (c) 2006, Timothy A. Davis.
+http://www.suitesparse.com
+
+The author of CSparse, Timothy A. Davis., has executed a license with Google LLC
+to permit distribution of this code and derivative works as part of Eigen under
+the Mozilla Public License v. 2.0, as stated at the top of this file.
+*/
+
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+// is provided under the following license agreement:
+
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+// Software License Agreement (BSD License)
+
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+// Copyright (c) 2011-2014, Willow Garage, Inc.
+
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+// Copyright (c) 2014-2015, Open Source Robotics Foundation
+
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+native/eigen/Eigen/src/Core/arch/Default/Half.h
+// All rights reserved.
+
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+//  * Redistributions of source code must retain the above copyright
+
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+//    copyright notice, this list of conditions and the following
+
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+native/eigen/Eigen/src/Core/arch/Default/Half.h
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+// COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+
+native/eigen/Eigen/src/Geometry/AlignedBox.h
+/**
+   * Transforms this box by \a transform and recomputes it to
+   * still be an axis-aligned box.
+   *
+   * \note This method is provided under BSD license (see the top of this file).
+   */
+
+native/eigen/Eigen/src/Geometry/Hyperplane.h
+native/eigen/Eigen/src/Geometry/ParametrizedLine.h
+native/eigen/Eigen/src/Core/TriangularMatrix.h
+native/eigen/Eigen/src/Core/util/StaticAssert.h
+native/eigen/Eigen/src/LU/Determinant.h
+// Copyright (C) 2008 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/Geometry/Quaternion.h
+native/eigen/Eigen/src/Core/VectorBlock.h
+native/eigen/Eigen/src/Core/CwiseNullaryOp.h
+native/eigen/Eigen/src/Core/Select.h
+native/eigen/Eigen/src/Core/DenseBase.h
+native/eigen/Eigen/src/Core/ProductEvaluators.h
+native/eigen/Eigen/src/Core/arch/Default/Settings.h
+native/eigen/Eigen/src/Core/products/TriangularSolverVector.h
+native/eigen/Eigen/src/Core/functors/BinaryFunctors.h
+native/eigen/Eigen/src/Core/functors/StlFunctors.h
+native/eigen/Eigen/src/Core/functors/AssignmentFunctors.h
+native/eigen/Eigen/src/CholmodSupport/CholmodSupport.h
+native/eigen/Eigen/src/plugins/BlockMethods.h
+native/eigen/Eigen/src/QR/HouseholderQR.h
+native/eigen/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+native/eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+// Copyright (C) 2008-2010 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Geometry/Quaternion.h
+// Copyright (C) 2009 Mathieu Gautier <mathieu.gautier@cea.fr>
+
+native/eigen/Eigen/src/Geometry/OrthoMethods.h
+native/eigen/Eigen/src/Core/TriangularMatrix.h
+native/eigen/Eigen/src/Core/PlainObjectBase.h
+native/eigen/Eigen/src/Core/Matrix.h
+native/eigen/Eigen/src/Core/SolveTriangular.h
+native/eigen/Eigen/src/Core/util/ForwardDeclarations.h
+native/eigen/Eigen/src/Core/arch/SSE/PacketMath.h
+native/eigen/Eigen/src/Core/arch/NEON/PacketMath.h
+native/eigen/Eigen/src/Core/products/GeneralMatrixMatrix.h
+native/eigen/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+native/eigen/Eigen/src/Core/products/SelfadjointMatrixVector.h
+native/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+native/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+native/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
+native/eigen/Eigen/src/QR/FullPivHouseholderQR.h
+native/eigen/Eigen/src/QR/ColPivHouseholderQR.h
+native/eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+// Copyright (C) 2008-2009 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Geometry/OrthoMethods.h
+native/eigen/Eigen/src/Core/VectorBlock.h
+native/eigen/Eigen/src/Core/Fuzzy.h
+native/eigen/Eigen/src/Core/VectorwiseOp.h
+native/eigen/Eigen/src/Core/IO.h
+native/eigen/Eigen/src/Core/Swap.h
+native/eigen/Eigen/src/Core/CwiseBinaryOp.h
+native/eigen/Eigen/src/Core/PlainObjectBase.h
+native/eigen/Eigen/src/Core/Reverse.h
+native/eigen/Eigen/src/Core/NestByValue.h
+native/eigen/Eigen/src/Core/CwiseUnaryOp.h
+native/eigen/Eigen/src/Core/GeneralProduct.h
+native/eigen/Eigen/src/Core/Transpose.h
+native/eigen/Eigen/src/Core/CwiseTernaryOp.h
+native/eigen/Eigen/src/Core/ProductEvaluators.h
+native/eigen/Eigen/src/Core/CommaInitializer.h
+native/eigen/Eigen/src/Core/Redux.h
+native/eigen/Eigen/src/Core/GenericPacketMath.h
+native/eigen/Eigen/src/Core/util/Meta.h
+native/eigen/Eigen/src/Core/util/Macros.h
+native/eigen/Eigen/src/Core/util/XprHelper.h
+native/eigen/Eigen/src/Core/arch/Default/Settings.h
+native/eigen/Eigen/src/plugins/CommonCwiseBinaryOps.h
+native/eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.h
+native/eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+native/eigen/Eigen/src/plugins/CommonCwiseUnaryOps.h
+// Copyright (C) 2006-2008 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/Geometry/Transform.h
+native/eigen/Eigen/src/Core/EigenBase.h
+native/eigen/Eigen/src/Core/PermutationMatrix.h
+native/eigen/Eigen/src/Cholesky/LDLT.h
+native/eigen/Eigen/src/Jacobi/Jacobi.h
+native/eigen/Eigen/src/QR/HouseholderQR.h
+native/eigen/Eigen/src/QR/FullPivHouseholderQR.h
+native/eigen/Eigen/src/QR/ColPivHouseholderQR.h
+native/eigen/Eigen/src/misc/Kernel.h
+native/eigen/Eigen/src/misc/Image.h
+native/eigen/Eigen/src/LU/arch/InverseSize4.h
+native/eigen/unsupported/Eigen/src/MoreVectorization/MathFunctions.h
+// Copyright (C) 2009 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/Geometry/Transform.h
+native/eigen/Eigen/src/Core/util/Memory.h
+// Copyright (C) 2010 Hauke Heibel <hauke.heibel@gmail.com>
+
+native/eigen/Eigen/src/Geometry/Umeyama.h
+// Copyright (C) 2009 Hauke Heibel <hauke.heibel@gmail.com>
+
+native/eigen/Eigen/src/Geometry/Homogeneous.h
+native/eigen/Eigen/src/Geometry/arch/Geometry_SIMD.h
+native/eigen/Eigen/src/Core/ArrayWrapper.h
+native/eigen/Eigen/src/Core/Reverse.h
+native/eigen/Eigen/src/Core/SelfCwiseBinaryOp.h
+native/eigen/Eigen/src/Core/Diagonal.h
+native/eigen/Eigen/src/Core/ForceAlignedAccess.h
+native/eigen/Eigen/src/Core/Replicate.h
+native/eigen/Eigen/src/Core/CwiseUnaryView.h
+native/eigen/Eigen/src/Core/ReturnByValue.h
+native/eigen/Eigen/src/Core/util/BlasUtil.h
+native/eigen/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+// Copyright (C) 2009-2010 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Geometry/arch/Geometry_SIMD.h
+native/eigen/unsupported/Eigen/src/MoreVectorization/MathFunctions.h
+// Copyright (C) 2009 Rohit Garg <rpg.314@gmail.com>
+
+native/eigen/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+// Copyright (C) 2012 Desire Nuentsa <desire.nuentsa_wakam@inria.fr>
+
+native/eigen/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h
+native/eigen/Eigen/src/SVD/SVDBase.h
+native/eigen/Eigen/src/Core/Solve.h
+native/eigen/Eigen/src/SparseCore/SparseSolverBase.h
+native/eigen/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h
+native/eigen/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+native/eigen/Eigen/src/LU/InverseImpl.h
+// Copyright (C) 2014 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/SVD/UpperBidiagonalization.h
+native/eigen/Eigen/src/Core/GlobalFunctions.h
+native/eigen/Eigen/src/Core/Stride.h
+native/eigen/Eigen/src/Householder/Householder.h
+native/eigen/Eigen/src/Householder/HouseholderSequence.h
+// Copyright (C) 2010 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/SVD/UpperBidiagonalization.h
+native/eigen/Eigen/src/SVD/JacobiSVD.h
+// Copyright (C) 2013-2014 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/SVD/JacobiSVD_LAPACKE.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to LAPACKe
+ *    Singular Value Decomposition - SVD.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/SVD/SVDBase.h
+native/eigen/Eigen/src/SVD/JacobiSVD.h
+native/eigen/Eigen/src/Core/ReturnByValue.h
+native/eigen/Eigen/src/misc/RealSvd2x2.h
+// Copyright (C) 2009-2010 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/SVD/SVDBase.h
+native/eigen/Eigen/src/SVD/BDCSVD.h
+// Copyright (C) 2013 Gauthier Brun <brun.gauthier@gmail.com>
+
+native/eigen/Eigen/src/SVD/SVDBase.h
+native/eigen/Eigen/src/SVD/BDCSVD.h
+// Copyright (C) 2013 Nicolas Carre <nicolas.carre@ensimag.fr>
+
+native/eigen/Eigen/src/SVD/SVDBase.h
+native/eigen/Eigen/src/SVD/BDCSVD.h
+// Copyright (C) 2013 Jean Ceccato <jean.ceccato@ensimag.fr>
+
+native/eigen/Eigen/src/SVD/SVDBase.h
+native/eigen/Eigen/src/SVD/BDCSVD.h
+// Copyright (C) 2013 Pierre Zoppitelli <pierre.zoppitelli@ensimag.fr>
+
+native/eigen/Eigen/src/SVD/BDCSVD.h
+// Copyright (C) 2013 Jitse Niesen <jitse@maths.leeds.ac.uk>
+
+native/eigen/Eigen/src/SVD/BDCSVD.h
+// Copyright (C) 2014-2017 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/SparseLU/SparseLU_pruneL.h
+/* 
+ 
+ * NOTE: This file is the modified version of [s,d,c,z]pruneL.c file in SuperLU 
+ 
+ * -- SuperLU routine (version 2.0) --
+ * Univ. of California Berkeley, Xerox Palo Alto Research Center,
+ * and Lawrence Berkeley National Lab.
+ * November 15, 1997
+ *
+ * Copyright (c) 1994 by Xerox Corporation.  All rights reserved.
+ *
+ * THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
+ * EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ *
+ * Permission is hereby granted to use or copy this program for any
+ * purpose, provided the above notices are retained on all copies.
+ * Permission to modify the code and to distribute modified code is
+ * granted, provided the above notices are retained, and a notice that
+ * the code was modified is included with the above copyright notice.
+ */
+
+native/eigen/Eigen/src/SparseLU/SparseLU_panel_dfs.h
+/* 
+ 
+ * NOTE: This file is the modified version of [s,d,c,z]panel_dfs.c file in SuperLU 
+ 
+ * -- SuperLU routine (version 2.0) --
+ * Univ. of California Berkeley, Xerox Palo Alto Research Center,
+ * and Lawrence Berkeley National Lab.
+ * November 15, 1997
+ *
+ * Copyright (c) 1994 by Xerox Corporation.  All rights reserved.
+ *
+ * THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
+ * EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ *
+ * Permission is hereby granted to use or copy this program for any
+ * purpose, provided the above notices are retained on all copies.
+ * Permission to modify the code and to distribute modified code is
+ * granted, provided the above notices are retained, and a notice that
+ * the code was modified is included with the above copyright notice.
+ */
+
+native/eigen/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h
+native/eigen/Eigen/src/SparseLU/SparseLU_relax_snode.h
+/* This file is a modified version of heap_relax_snode.c file in SuperLU
+ * -- SuperLU routine (version 3.0) --
+ * Univ. of California Berkeley, Xerox Palo Alto Research Center,
+ * and Lawrence Berkeley National Lab.
+ * October 15, 2003
+ *
+ * Copyright (c) 1994 by Xerox Corporation.  All rights reserved.
+ *
+ * THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
+ * EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ *
+ * Permission is hereby granted to use or copy this program for any
+ * purpose, provided the above notices are retained on all copies.
+ * Permission to modify the code and to distribute modified code is
+ * granted, provided the above notices are retained, and a notice that
+ * the code was modified is included with the above copyright notice.
+ */
+
+native/eigen/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h
+/* 
+ 
+ * NOTE: This file is the modified version of [s,d,c,z]copy_to_ucol.c file in SuperLU 
+ 
+ * -- SuperLU routine (version 2.0) --
+ * Univ. of California Berkeley, Xerox Palo Alto Research Center,
+ * and Lawrence Berkeley National Lab.
+ * November 15, 1997
+ *
+ * Copyright (c) 1994 by Xerox Corporation.  All rights reserved.
+ *
+ * THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
+ * EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ *
+ * Permission is hereby granted to use or copy this program for any
+ * purpose, provided the above notices are retained on all copies.
+ * Permission to modify the code and to distribute modified code is
+ * granted, provided the above notices are retained, and a notice that
+ * the code was modified is included with the above copyright notice.
+ */
+
+native/eigen/Eigen/src/SparseLU/SparseLU_pivotL.h
+/* 
+ 
+ * NOTE: This file is the modified version of xpivotL.c file in SuperLU 
+ 
+ * -- SuperLU routine (version 3.0) --
+ * Univ. of California Berkeley, Xerox Palo Alto Research Center,
+ * and Lawrence Berkeley National Lab.
+ * October 15, 2003
+ *
+ * Copyright (c) 1994 by Xerox Corporation.  All rights reserved.
+ *
+ * THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
+ * EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ *
+ * Permission is hereby granted to use or copy this program for any
+ * purpose, provided the above notices are retained on all copies.
+ * Permission to modify the code and to distribute modified code is
+ * granted, provided the above notices are retained, and a notice that
+ * the code was modified is included with the above copyright notice.
+ */
+
+native/eigen/Eigen/src/SparseLU/SparseLU_Memory.h
+/* 
+ 
+ * NOTE: This file is the modified version of [s,d,c,z]memory.c files in SuperLU 
+ 
+ * -- SuperLU routine (version 3.1) --
+ * Univ. of California Berkeley, Xerox Palo Alto Research Center,
+ * and Lawrence Berkeley National Lab.
+ * August 1, 2008
+ *
+ * Copyright (c) 1994 by Xerox Corporation.  All rights reserved.
+ *
+ * THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
+ * EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ *
+ * Permission is hereby granted to use or copy this program for any
+ * purpose, provided the above notices are retained on all copies.
+ * Permission to modify the code and to distribute modified code is
+ * granted, provided the above notices are retained, and a notice that
+ * the code was modified is included with the above copyright notice.
+ */
+
+native/eigen/Eigen/src/SparseLU/SparseLU_column_dfs.h
+/* 
+ 
+ * NOTE: This file is the modified version of [s,d,c,z]column_dfs.c file in SuperLU 
+ 
+ * -- SuperLU routine (version 2.0) --
+ * Univ. of California Berkeley, Xerox Palo Alto Research Center,
+ * and Lawrence Berkeley National Lab.
+ * November 15, 1997
+ *
+ * Copyright (c) 1994 by Xerox Corporation.  All rights reserved.
+ *
+ * THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
+ * EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ *
+ * Permission is hereby granted to use or copy this program for any
+ * purpose, provided the above notices are retained on all copies.
+ * Permission to modify the code and to distribute modified code is
+ * granted, provided the above notices are retained, and a notice that
+ * the code was modified is included with the above copyright notice.
+ */
+
+native/eigen/Eigen/src/SparseLU/SparseLU_column_bmod.h
+/* 
+ 
+ * NOTE: This file is the modified version of xcolumn_bmod.c file in SuperLU 
+ 
+ * -- SuperLU routine (version 3.0) --
+ * Univ. of California Berkeley, Xerox Palo Alto Research Center,
+ * and Lawrence Berkeley National Lab.
+ * October 15, 2003
+ *
+ * Copyright (c) 1994 by Xerox Corporation.  All rights reserved.
+ *
+ * THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
+ * EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ *
+ * Permission is hereby granted to use or copy this program for any
+ * purpose, provided the above notices are retained on all copies.
+ * Permission to modify the code and to distribute modified code is
+ * granted, provided the above notices are retained, and a notice that
+ * the code was modified is included with the above copyright notice.
+ */
+
+native/eigen/Eigen/src/SparseLU/SparseLU_panel_bmod.h
+/* 
+ 
+ * NOTE: This file is the modified version of [s,d,c,z]panel_bmod.c file in SuperLU 
+ 
+ * -- SuperLU routine (version 3.0) --
+ * Univ. of California Berkeley, Xerox Palo Alto Research Center,
+ * and Lawrence Berkeley National Lab.
+ * October 15, 2003
+ *
+ * Copyright (c) 1994 by Xerox Corporation.  All rights reserved.
+ *
+ * THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
+ * EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ *
+ * Permission is hereby granted to use or copy this program for any
+ * purpose, provided the above notices are retained on all copies.
+ * Permission to modify the code and to distribute modified code is
+ * granted, provided the above notices are retained, and a notice that
+ * the code was modified is included with the above copyright notice.
+ */
+
+native/eigen/Eigen/src/Core/MapBase.h
+native/eigen/Eigen/src/Core/Map.h
+native/eigen/Eigen/src/Core/DenseBase.h
+native/eigen/Eigen/src/Core/util/ForwardDeclarations.h
+// Copyright (C) 2007-2010 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/Core/ArithmeticSequence.h
+native/eigen/Eigen/src/Core/IndexedView.h
+native/eigen/Eigen/src/Core/util/ReshapedHelper.h
+native/eigen/Eigen/src/Core/util/IndexedViewHelper.h
+native/eigen/Eigen/src/Core/util/SymbolicIndex.h
+native/eigen/Eigen/src/Core/util/IntegralConstant.h
+native/eigen/Eigen/src/Core/arch/Default/ConjHelper.h
+native/eigen/Eigen/src/plugins/IndexedViewMethods.h
+// Copyright (C) 2017 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/VectorwiseOp.h
+// Copyright (C) 2008-2019 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/DiagonalMatrix.h
+native/eigen/Eigen/src/Core/Diagonal.h
+native/eigen/Eigen/src/Core/DiagonalProduct.h
+native/eigen/Eigen/src/Core/util/Constants.h
+// Copyright (C) 2007-2009 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/Core/Inverse.h
+// Copyright (C) 2014-2019 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/NumTraits.h
+native/eigen/Eigen/src/Core/DenseCoeffsBase.h
+native/eigen/Eigen/src/Core/MathFunctions.h
+native/eigen/Eigen/src/Core/Block.h
+native/eigen/Eigen/src/Core/Matrix.h
+native/eigen/Eigen/src/Core/Assign.h
+native/eigen/Eigen/src/plugins/BlockMethods.h
+// Copyright (C) 2006-2010 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/Core/CoreEvaluators.h
+native/eigen/Eigen/src/Core/AssignEvaluator.h
+// Copyright (C) 2011 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/Core/CoreEvaluators.h
+native/eigen/Eigen/src/Core/AssignEvaluator.h
+native/eigen/Eigen/src/SparseCore/SparseView.h
+native/eigen/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h
+native/eigen/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h
+native/eigen/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h
+native/eigen/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/MINRES.h
+// Copyright (C) 2011-2014 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/CoreEvaluators.h
+native/eigen/Eigen/src/Core/AssignEvaluator.h
+// Copyright (C) 2011-2012 Jitse Niesen <jitse@maths.leeds.ac.uk>
+
+native/eigen/Eigen/src/Core/MathFunctions.h
+// Copyright (c) 2021, NVIDIA CORPORATION. All rights reserved.
+
+native/eigen/Eigen/src/Core/MatrixBase.h
+native/eigen/Eigen/src/Core/DenseStorage.h
+native/eigen/Eigen/src/LU/FullPivLU.h
+native/eigen/Eigen/src/LU/PartialPivLU.h
+// Copyright (C) 2006-2009 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/Core/SolverBase.h
+native/eigen/Eigen/src/SparseCore/SparseRef.h
+native/eigen/Eigen/src/SparseCore/SparseMap.h
+native/eigen/Eigen/src/SparseCore/SparseCompressedBase.h
+native/eigen/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h
+native/eigen/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h
+// Copyright (C) 2015 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/CwiseBinaryOp.h
+native/eigen/Eigen/src/Core/CwiseUnaryOp.h
+native/eigen/Eigen/src/Core/CwiseTernaryOp.h
+native/eigen/Eigen/src/Core/CoreIterators.h
+native/eigen/Eigen/src/SparseCore/CompressedStorage.h
+native/eigen/Eigen/src/SparseCore/SparseMatrixBase.h
+native/eigen/Eigen/src/SparseCore/MappedSparseMatrix.h
+native/eigen/Eigen/src/SparseCore/SparseCwiseBinaryOp.h
+native/eigen/Eigen/src/SparseCore/SparseRedux.h
+native/eigen/Eigen/src/SparseCore/SparseFuzzy.h
+native/eigen/Eigen/src/SparseCore/SparseAssign.h
+native/eigen/Eigen/src/SparseCore/SparseSparseProductWithPruning.h
+native/eigen/Eigen/src/SparseCore/SparseBlock.h
+native/eigen/Eigen/src/SparseCore/SparseMatrix.h
+native/eigen/Eigen/src/SparseCore/SparseUtil.h
+// Copyright (C) 2008-2014 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/Reverse.h
+// Copyright (C) 2009 Ricard Marxer <email@ricardmarxer.com>
+
+native/eigen/Eigen/src/Core/ConditionEstimator.h
+// Copyright (C) 2016 Rasmus Munk Larsen (rmlarsen@google.com)
+
+native/eigen/Eigen/src/Core/DenseStorage.h
+// Copyright (C) 2010-2013 Hauke Heibel <hauke.heibel@gmail.com>
+
+native/eigen/Eigen/src/Core/Product.h
+native/eigen/Eigen/src/Core/GeneralProduct.h
+native/eigen/Eigen/src/Cholesky/LDLT.h
+native/eigen/Eigen/src/UmfPackSupport/UmfPackSupport.h
+// Copyright (C) 2008-2011 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/PartialReduxEvaluator.h
+// Copyright (C) 2011-2018 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/GlobalFunctions.h
+// Copyright (C) 2010-2016 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/Reshaped.h
+// Copyright (C) 2008-2017 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/Reshaped.h
+// Copyright (C) 2014 yoco <peter.xiau@gmail.com>
+
+native/eigen/Eigen/src/Core/Transpose.h
+native/eigen/Eigen/src/SparseCore/SparseSelfAdjointView.h
+// Copyright (C) 2009-2014 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/Dot.h
+// Copyright (C) 2006-2008, 2010 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/Core/StlIterators.h
+native/eigen/Eigen/src/Core/arch/AVX512/Complex.h
+// Copyright (C) 2018 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/PermutationMatrix.h
+native/eigen/Eigen/src/SparseCore/SparseTriangularView.h
+native/eigen/Eigen/src/SparseCore/SparseDiagonalProduct.h
+// Copyright (C) 2009-2015 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/CwiseTernaryOp.h
+native/eigen/Eigen/src/Core/functors/TernaryFunctors.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsFunctors.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorGlobalFunctions.h
+// Copyright (C) 2016 Eugene Brevdo <ebrevdo@gmail.com>
+
+native/eigen/Eigen/src/Core/Assign.h
+// Copyright (C) 2007 Michael Olbrich <michael.olbrich@gmx.net>
+
+native/eigen/Eigen/src/Core/MathFunctionsImpl.h
+native/eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+native/eigen/Eigen/src/Core/arch/MSA/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/AVX/MathFunctions.h
+// Copyright (C) 2014 Pedro Gonnet (pedro.gonnet@gmail.com)
+
+native/eigen/Eigen/src/Core/MathFunctionsImpl.h
+native/eigen/Eigen/src/Core/arch/MSA/MathFunctions.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsPacketMath.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsFunctors.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsArrayAPI.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsFunctors.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsPacketMath.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsArrayAPI.h
+// Copyright (C) 2016 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/Assign_MKL.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+ Copyright (C) 2015 Gael Guennebaud <gael.guennebaud@inria.fr>
+ 
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to Intel(R) MKL
+ *   MKL VML support for coefficient-wise unary Eigen expressions like a=b.sin()
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/Core/Transpositions.h
+// Copyright (C) 2010-2011 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/ProductEvaluators.h
+// Copyright (C) 2011 Jitse Niesen <jitse@maths.leeds.ac.uk>
+
+native/eigen/Eigen/src/Core/util/Meta.h
+native/eigen/Eigen/src/Core/util/Macros.h
+native/eigen/Eigen/src/Core/util/Constants.h
+native/eigen/Eigen/src/Core/util/Memory.h
+native/eigen/Eigen/src/SparseCore/SparseDenseProduct.h
+native/eigen/Eigen/src/SparseCore/SparseProduct.h
+native/eigen/Eigen/src/SparseCore/SparseCwiseUnaryOp.h
+native/eigen/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h
+native/eigen/Eigen/src/SparseCore/SparseVector.h
+native/eigen/Eigen/src/SparseCore/SparseTranspose.h
+native/eigen/Eigen/src/SuperLUSupport/SuperLUSupport.h
+// Copyright (C) 2008-2015 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/util/MKL_support.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to Intel(R) MKL
+ *   Include file with common MKL declarations
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/Core/util/ConfigureVectorization.h
+// Copyright (C) 2008-2018 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/util/ConfigureVectorization.h
+native/eigen/Eigen/src/Core/util/Constants.h
+native/eigen/Eigen/src/Core/arch/SVE/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/SVE/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/SVE/PacketMath.h
+// Copyright (C) 2020, Arm Limited and Contributors
+
+native/eigen/Eigen/src/Core/util/Memory.h
+// Copyright (C) 2008-2009 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/Core/util/Memory.h
+// Copyright (C) 2009 Kenneth Riddile <kfriddile@yahoo.com>
+
+native/eigen/Eigen/src/Core/util/Memory.h
+// Copyright (C) 2010 Thomas Capricelli <orzel@freehackers.org>
+
+native/eigen/Eigen/src/Core/util/Memory.h
+// Copyright (C) 2013 Pavel Holoborodko <pavel@holoborodko.com>
+
+native/eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h
+// Copyright (C) 2019 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+native/eigen/Eigen/src/Core/arch/MSA/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/SSE/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/ZVector/MathFunctions.h
+// Copyright (C) 2007 Julien Pommier
+
+native/eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h
+// Copyright (C) 2009-2019 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/arch/Default/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/GPU/TypeCasting.h
+native/eigen/unsupported/Eigen/CXX11/ThreadPool
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/ThreadLocal.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/ThreadYield.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/ThreadCancel.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceSycl.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorRandom.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorConvolutionSycl.h
+// Copyright (C) 2016 Benoit Steiner <benoit.steiner.goog@gmail.com>
+
+native/eigen/Eigen/src/Core/arch/Default/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/AVX512/TypeCasting.h
+// Copyright (C) 2019 Rasmus Munk Larsen <rmlarsen@google.com>
+
+native/eigen/Eigen/src/Core/arch/Default/BFloat16.h
+/* Copyright 2017 The TensorFlow Authors. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+==============================================================================*/
+
+native/eigen/Eigen/src/Core/arch/Default/Half.h
+// The conversion routines are Copyright (c) Fabian Giesen, 2016.
+
+native/eigen/Eigen/src/Core/arch/Default/Half.h
+// The original license follows:
+
+native/eigen/Eigen/src/Core/arch/Default/Half.h
+// Copyright (c) Fabian Giesen, 2016
+
+native/eigen/Eigen/src/Core/arch/Default/Half.h
+// A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+
+native/eigen/Eigen/src/Core/arch/MSA/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/MSA/Complex.h
+native/eigen/Eigen/src/Core/arch/MSA/PacketMath.h
+// Copyright (C) 2018 Wave Computing, Inc.
+
+native/eigen/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+native/eigen/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+// Copyright (C) 2020 Everton Constantino (everton.constantino@ibm.com)
+
+native/eigen/Eigen/src/Core/arch/AltiVec/MatrixProduct.h
+native/eigen/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h
+// Copyright (C) 2021 Chip Kerchner (chip.kerchner@ibm.com)
+
+native/eigen/Eigen/src/Core/arch/AltiVec/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/ZVector/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/ZVector/Complex.h
+native/eigen/Eigen/src/Core/arch/ZVector/PacketMath.h
+// Copyright (C) 2016 Konstantinos Margaritis <markos@freevec.org>
+
+native/eigen/Eigen/src/Core/arch/AltiVec/Complex.h
+// Copyright (C) 2010-2016 Konstantinos Margaritis <markos@freevec.org>
+
+native/eigen/Eigen/src/Core/arch/AltiVec/PacketMath.h
+// Copyright (C) 2008-2016 Konstantinos Margaritis <markos@freevec.org>
+
+native/eigen/Eigen/src/Core/arch/SSE/TypeCasting.h
+native/eigen/Eigen/src/Core/arch/AVX/TypeCasting.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorConversion.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorUInt128.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMeta.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDimensionList.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMacros.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorGenerator.h
+// Copyright (C) 2015 Benoit Steiner <benoit.steiner.goog@gmail.com>
+
+native/eigen/Eigen/src/Core/arch/CUDA/Complex.h
+native/eigen/Eigen/src/Core/arch/GPU/MathFunctions.h
+native/eigen/Eigen/src/Core/arch/GPU/PacketMath.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/arch/GPU/SpecialFunctions.h
+native/eigen/unsupported/Eigen/CXX11/Tensor
+native/eigen/unsupported/Eigen/CXX11/src/util/EmulateArray.h
+native/eigen/unsupported/Eigen/CXX11/src/util/MaxSizeVector.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/ThreadEnvironment.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/ThreadPoolInterface.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorPatch.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorFixedSize.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContractionMapper.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContraction.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorReduction.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceThreadPool.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceGpu.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorEvalTo.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorReductionGpu.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMap.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContractionBlocking.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaDefines.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorStriding.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorPadding.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorTraits.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorMorphing.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/Tensor.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorConcatenation.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorRef.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorBase.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorCustomOp.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaUndefines.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorShuffling.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorBroadcasting.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorIO.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDeviceDefault.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorFunctors.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorImagePatch.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorForwardDeclarations.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorAssign.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContractionThreadPool.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorForcedEval.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorLayoutSwap.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorConvolution.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorIntDiv.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorExpr.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorDevice.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorEvaluator.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorExecutor.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorChipping.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorInitializer.h
+// Copyright (C) 2014 Benoit Steiner <benoit.steiner.goog@gmail.com>
+
+native/eigen/Eigen/src/Core/arch/CUDA/Complex.h
+// Copyright (C) 2021 C. Antonio Sanchez <cantonios@google.com>
+
+native/eigen/Eigen/src/Core/arch/AVX512/MathFunctions.h
+// Copyright (C) 2016 Pedro Gonnet (pedro.gonnet@gmail.com)
+
+native/eigen/Eigen/src/Core/arch/AVX512/PacketMath.h
+// Copyright (C) 2016 Benoit Steiner (benoit.steiner.goog@gmail.com)
+
+native/eigen/Eigen/src/Core/arch/AVX/Complex.h
+native/eigen/Eigen/src/Core/arch/AVX/PacketMath.h
+// Copyright (C) 2014 Benoit Steiner (benoit.steiner.goog@gmail.com)
+
+native/eigen/Eigen/src/Core/arch/NEON/TypeCasting.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/Barrier.h
+// Copyright (C) 2018 Rasmus Munk Larsen <rmlarsen@google.com>
+
+native/eigen/Eigen/src/Core/arch/NEON/TypeCasting.h
+// Copyright (C) 2020 Antonio Sanchez <cantonios@google.com>
+
+native/eigen/Eigen/src/Core/arch/NEON/Complex.h
+native/eigen/Eigen/src/Core/arch/NEON/PacketMath.h
+// Copyright (C) 2010 Konstantinos Margaritis <markos@freevec.org>
+
+native/eigen/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h
+/***************************************************************************
+ *  Copyright (C) 2017 Codeplay Software Limited
+ *  This Source Code Form is subject to the terms of the Mozilla
+ *  Public License v. 2.0. If a copy of the MPL was not distributed
+ *  with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ *
+ *  SyclMemoryModel.h
+ *
+ *  Description:
+ *    Interface for SYCL buffers to behave as a non-dereferenceable pointer
+ *    Interface for Placeholder accessor to behave as a pointer on both host
+ *    and device
+ *
+ * Authors:
+ *
+ *    Ruyman Reyes   Codeplay Software Ltd.
+ *    Mehdi Goli     Codeplay Software Ltd.
+ *    Vanya Yaneva   Codeplay Software Ltd.
+ *
+ **************************************************************************/
+
+native/eigen/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to BLAS F77
+ *   Triangular matrix-vector product functionality based on ?TRMV.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to BLAS F77
+ *   Level 3 BLAS SYRK/HERK implementation.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to BLAS F77
+ *   General matrix-vector product functionality based on ?GEMV.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/Core/products/GeneralMatrixVector.h
+native/eigen/Eigen/src/Core/functors/NullaryFunctors.h
+native/eigen/Eigen/src/Core/functors/UnaryFunctors.h
+native/eigen/Eigen/src/plugins/CommonCwiseBinaryOps.h
+// Copyright (C) 2008-2016 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h
+native/eigen/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to BLAS F77
+ *   Triangular matrix * matrix product functionality based on ?TRMM.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+//
+ ********************************************************************************
+ *   Content : Eigen bindings to BLAS F77
+ *   Self adjoint matrix * matrix product functionality based on ?SYMM/?HEMM.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to BLAS F77
+ *   General matrix-matrix product functionality based on ?GEMM.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to BLAS F77
+ *   Selfadjoint matrix-vector product functionality based on ?SYMV/HEMV.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+native/eigen/Eigen/src/SparseCholesky/SimplicialCholesky.h
+// Copyright (C) 2008-2012 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h
+/*
+NOTE: these functions have been adapted from the LDL library:
+
+LDL Copyright (c) 2005 by Timothy A. Davis.  All Rights Reserved.
+
+The author of LDL, Timothy A. Davis., has executed a license with Google LLC
+to permit distribution of this code and derivative works as part of Eigen under
+the Mozilla Public License v. 2.0, as stated at the top of this file.
+ */
+
+native/eigen/Eigen/src/SparseCore/SparseView.h
+// Copyright (C) 2010 Daniel Lowengrub <lowdanie@gmail.com>
+
+native/eigen/Eigen/src/SparseCore/SparseColEtree.h
+/* 
+ 
+ * NOTE: This file is the modified version of sp_coletree.c file in SuperLU 
+ 
+ * -- SuperLU routine (version 3.1) --
+ * Univ. of California Berkeley, Xerox Palo Alto Research Center,
+ * and Lawrence Berkeley National Lab.
+ * August 1, 2008
+ *
+ * Copyright (c) 1994 by Xerox Corporation.  All rights reserved.
+ *
+ * THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
+ * EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ *
+ * Permission is hereby granted to use or copy this program for any
+ * purpose, provided the above notices are retained on all copies.
+ * Permission to modify the code and to distribute modified code is
+ * granted, provided the above notices are retained, and a notice that
+ * the code was modified is included with the above copyright notice.
+ */
+
+native/eigen/Eigen/src/SuperLUSupport/SuperLUSupport.h
+//  Copyright (c) 1994 by Xerox Corporation.  All rights reserved.
+
+native/eigen/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h
+/** \ingroup IterativeLinearSolvers_Module
+  * \class IncompleteLUT
+  * \brief Incomplete LU factorization with dual-threshold strategy
+  *
+  * \implsparsesolverconcept
+  *
+  * During the numerical factorization, two dropping rules are used :
+  *  1) any element whose magnitude is less than some tolerance is dropped.
+  *    This tolerance is obtained by multiplying the input tolerance @p droptol
+  *    by the average magnitude of all the original elements in the current row.
+  *  2) After the elimination of the row, only the @p fill largest elements in
+  *    the L part and the @p fill largest elements in the U part are kept
+  *    (in addition to the diagonal element ). Note that @p fill is computed from
+  *    the input parameter @p fillfactor which is used the ratio to control the fill_in
+  *    relatively to the initial number of nonzero elements.
+  *
+  * The two extreme cases are when @p droptol=0 (to keep all the @p fill*2 largest elements)
+  * and when @p fill=n/2 with @p droptol being different to zero.
+  *
+  * References : Yousef Saad, ILUT: A dual threshold incomplete LU factorization,
+  *              Numerical Linear Algebra with Applications, 1(4), pp 387-402, 1994.
+  *
+  * NOTE : The following implementation is derived from the ILUT implementation
+  * in the SPARSKIT package, Copyright (C) 2005, the Regents of the University of Minnesota
+  *  released under the terms of the GNU LGPL:
+  *    http://www-users.cs.umn.edu/~saad/software/SPARSKIT/README
+  * However, Yousef Saad gave us permission to relicense his ILUT code to MPL2.
+  * See the Eigen mailing list archive, thread: ILUT, date: July 8, 2012:
+  *   http://listengine.tuxfamily.org/lists.tuxfamily.org/eigen/2012/07/msg00064.html
+  * alternatively, on GMANE:
+  *   http://comments.gmane.org/gmane.comp.lib.eigen/3302
+  */
+
+native/eigen/Eigen/src/KLUSupport/KLUSupport.h
+// Copyright (C) 2017 Kyle Macfarlan <kyle.macfarlan@gmail.com>
+
+native/eigen/Eigen/src/Householder/BlockHouseholder.h
+native/eigen/Eigen/src/QR/HouseholderQR.h
+// Copyright (C) 2010 Vincent Lejeune
+
+native/eigen/Eigen/src/Cholesky/LDLT.h
+// Copyright (C) 2009 Keir Mierle <mierle@gmail.com>
+
+native/eigen/Eigen/src/Cholesky/LDLT.h
+// Copyright (C) 2011 Timothy E. Holy <tim.holy@gmail.com >
+
+native/eigen/Eigen/src/Cholesky/LLT_LAPACKE.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to LAPACKe
+ *     LLt decomposition based on LAPACKE_?potrf function.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/QR/HouseholderQR_LAPACKE.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to LAPACKe
+ *    Householder QR decomposition of a matrix w/o pivoting based on
+ *    LAPACKE_?geqrf function.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to LAPACKe
+ *    Householder QR decomposition of a matrix with column pivoting based on
+ *    LAPACKE_?geqp3 function.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorCostModel.h
+// Copyright (C) 2016 Rasmus Munk Larsen <rmlarsen@google.com>
+
+native/eigen/Eigen/src/misc/lapacke.h
+/*****************************************************************************
+  Copyright (c) 2010, Intel Corp.
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name of Intel Corporation nor the names of its contributors
+      may be used to endorse or promote products derived from this software
+      without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+  THE POSSIBILITY OF SUCH DAMAGE.
+******************************************************************************
+* Contents: Native C interface to LAPACK
+* Author: Intel Corporation
+* Generated November, 2011
+*****************************************************************************/
+
+native/eigen/Eigen/src/misc/RealSvd2x2.h
+// Copyright (C) 2013-2016 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/PardisoSupport/PardisoSupport.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to Intel(R) MKL PARDISO
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+native/eigen/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+native/eigen/Eigen/src/Eigenvalues/Tridiagonalization.h
+native/eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+native/eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+// Copyright (C) 2010 Jitse Niesen <jitse@maths.leeds.ac.uk>
+
+native/eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+// Copyright (C) 2012-2016 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+native/eigen/Eigen/src/Eigenvalues/RealSchur.h
+native/eigen/Eigen/src/Eigenvalues/EigenSolver.h
+native/eigen/Eigen/src/Eigenvalues/ComplexSchur.h
+native/eigen/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+// Copyright (C) 2010,2012 Jitse Niesen <jitse@maths.leeds.ac.uk>
+
+native/eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+// Copyright (C) 2016 Tobias Wood <tobias@spinicist.org.uk>
+
+native/eigen/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to LAPACKe
+ *    Complex Schur needed to complex unsymmetrical eigenvalues/eigenvectors.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to LAPACKe
+ *    Self-adjoint eigenvalues/eigenvectors.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/Eigenvalues/ComplexSchur.h
+native/eigen/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+// Copyright (C) 2009 Claire Maurice
+
+native/eigen/Eigen/src/Eigenvalues/RealQZ.h
+// Copyright (C) 2012 Alexey Korepanov <kaikaikai@yandex.ru>
+
+native/eigen/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to LAPACKe
+ *    Real Schur needed to real unsymmetrical eigenvalues/eigenvectors.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/LU/PartialPivLU_LAPACKE.h
+/*
+ Copyright (c) 2011, Intel Corporation. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * Neither the name of Intel Corporation nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+ ********************************************************************************
+ *   Content : Eigen bindings to LAPACKe
+ *     LU decomposition with partial pivoting based on LAPACKE_?getrf function.
+ ********************************************************************************
+*/
+
+native/eigen/Eigen/src/LU/InverseImpl.h
+// Copyright (C) 2008-2010 Benoit Jacob <jacob.benoit.1@gmail.com>
+
+native/eigen/Eigen/src/LU/arch/InverseSize4.h
+// Copyright (C) 2001 Intel Corporation
+
+native/eigen/Eigen/src/LU/arch/InverseSize4.h
+// Here is the respective copyright and license statement:
+
+native/eigen/Eigen/src/LU/arch/InverseSize4.h
+//   Copyright (c) 2001 Intel Corporation.
+
+native/eigen/Eigen/src/LU/arch/InverseSize4.h
+// copyright notice and this statement appear in all copies.
+
+native/eigen/unsupported/Eigen/MatrixFunctions
+// Copyright (C) 2009 Jitse Niesen <jitse@maths.leeds.ac.uk>
+
+native/eigen/unsupported/Eigen/MatrixFunctions
+native/eigen/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h
+// Copyright (C) 2012 Chen-Pang He <jdh8@ms63.hinet.net>
+
+native/eigen/unsupported/Eigen/SpecialFunctions
+// Copyright (C) 2016 Gael Guennebaud <g.gael@free.fr>
+
+native/eigen/unsupported/Eigen/AdolcForward
+native/eigen/unsupported/Eigen/IterativeSolvers
+native/eigen/unsupported/Eigen/AutoDiff
+native/eigen/unsupported/Eigen/SparseExtra
+// Copyright (C) 2008-2009 Gael Guennebaud <g.gael@free.fr>
+
+native/eigen/unsupported/Eigen/AlignedVector3
+// Copyright (C) 2009 Gael Guennebaud <g.gael@free.fr>
+
+native/eigen/unsupported/Eigen/BVH
+native/eigen/unsupported/Eigen/src/BVH/KdBVH.h
+native/eigen/unsupported/Eigen/src/BVH/BVAlgorithms.h
+// Copyright (C) 2009 Ilya Baran <ibaran@mit.edu>
+
+native/eigen/unsupported/Eigen/NumericalDiff
+native/eigen/unsupported/Eigen/LevenbergMarquardt
+native/eigen/unsupported/Eigen/NonLinearOptimization
+native/eigen/unsupported/Eigen/src/NumericalDiff/NumericalDiff.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+native/eigen/unsupported/Eigen/src/NonLinearOptimization/LevenbergMarquardt.h
+native/eigen/unsupported/Eigen/src/NonLinearOptimization/HybridNonLinearSolver.h
+// Copyright (C) 2009 Thomas Capricelli <orzel@freehackers.org>
+
+native/eigen/unsupported/Eigen/FFT
+native/eigen/unsupported/Eigen/src/FFT/ei_fftw_impl.h
+native/eigen/unsupported/Eigen/src/FFT/ei_kissfft_impl.h
+// Copyright (C) 2009 Mark Borgerding mark a borgerding net
+
+native/eigen/unsupported/Eigen/MPRealSupport
+// Copyright (C) 2010-2012 Pavel Holoborodko <pavel@holoborodko.com>
+
+native/eigen/unsupported/Eigen/MPRealSupport
+// Copyright (C) 2010 Konstantin Holoborodko <konstantin@holoborodko.com>
+
+native/eigen/unsupported/Eigen/MPRealSupport
+/**
+  * \defgroup MPRealSupport_Module MPFRC++ Support module
+  * \code
+  * #include <Eigen/MPRealSupport>
+  * \endcode
+  *
+  * This module provides support for multi precision floating point numbers
+  * via the <a href="http://www.holoborodko.com/pavel/mpfr">MPFR C++</a>
+  * library which itself is built upon <a href="http://www.mpfr.org/">MPFR</a>/<a href="http://gmplib.org/">GMP</a>.
+  *
+  * \warning MPFR C++ is licensed under the GPL.
+  *
+  * You can find a copy of MPFR C++ that is known to be compatible in the unsupported/test/mpreal folder.
+  *
+  * Here is an example:
+  *
+\code
+#include <iostream>
+#include <Eigen/MPRealSupport>
+#include <Eigen/LU>
+using namespace mpfr;
+using namespace Eigen;
+int main()
+{
+  // set precision to 256 bits (double has only 53 bits)
+  mpreal::set_default_prec(256);
+  // Declare matrix and vector types with multi-precision scalar type
+  typedef Matrix<mpreal,Dynamic,Dynamic>  MatrixXmp;
+  typedef Matrix<mpreal,Dynamic,1>        VectorXmp;
+
+  MatrixXmp A = MatrixXmp::Random(100,100);
+  VectorXmp b = VectorXmp::Random(100);
+
+  // Solve Ax=b using LU
+  VectorXmp x = A.lu().solve(b);
+  std::cout << "relative error: " << (A*x - b).norm() / b.norm() << std::endl;
+  return 0;
+}
+\endcode
+  *
+  */
+
+native/eigen/unsupported/Eigen/EulerAngles
+native/eigen/unsupported/Eigen/src/EulerAngles/EulerSystem.h
+native/eigen/unsupported/Eigen/src/EulerAngles/EulerAngles.h
+// Copyright (C) 2015 Tal Hadad <tal_hd@hotmail.com>
+
+native/eigen/unsupported/Eigen/Splines
+native/eigen/unsupported/Eigen/src/Splines/SplineFitting.h
+native/eigen/unsupported/Eigen/src/Splines/SplineFwd.h
+native/eigen/unsupported/Eigen/src/Splines/Spline.h
+// Copyright (C) 20010-2011 Hauke Heibel <hauke.heibel@gmail.com>
+
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h
+// Copyright (C) 2012, 2013 Chen-Pang He <jdh8@ms63.hinet.net>
+
+native/eigen/unsupported/Eigen/src/MatrixFunctions/StemFunction.h
+// Copyright (C) 2010, 2013 Jitse Niesen <jitse@maths.leeds.ac.uk>
+
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h
+// Copyright (C) 2011, 2013 Jitse Niesen <jitse@maths.leeds.ac.uk>
+
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h
+// Copyright (C) 2011 Chen-Pang He <jdh8@ms63.hinet.net>
+
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h
+// Copyright (C) 2009, 2010, 2013 Jitse Niesen <jitse@maths.leeds.ac.uk>
+
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h
+// Copyright (C) 2011, 2013 Chen-Pang He <jdh8@ms63.hinet.net>
+
+native/eigen/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h
+// Copyright (C) 2009-2011, 2013 Jitse Niesen <jitse@maths.leeds.ac.uk>
+
+native/eigen/unsupported/Eigen/src/Polynomials/PolynomialUtils.h
+native/eigen/unsupported/Eigen/src/Polynomials/Companion.h
+native/eigen/unsupported/Eigen/src/Polynomials/PolynomialSolver.h
+// Copyright (C) 2010 Manuel Yguel <manuel.yguel@gmail.com>
+
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsImpl.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorArgMax.h
+// Copyright (C) 2015 Eugene Brevdo <ebrevdo@gmail.com>
+
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h
+native/eigen/unsupported/Eigen/src/SpecialFunctions/BesselFunctionsImpl.h
+//  Copyright 1984, 1987, 1992, 2000 by Stephen L. Moshier
+
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h
+/*
+   Cephes Math Library Release 2.2: June, 1992
+   Copyright 1985, 1987, 1992 by Stephen L. Moshier
+   Direct inquiries to 30 Frost Street, Cambridge, MA 02140
+ */
+
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h
+/*
+      Cephes Math Library Release 2.2: June, 1992
+      Copyright 1985, 1987, 1992 by Stephen L. Moshier
+      Direct inquiries to 30 Frost Street, Cambridge, MA 02140
+    */
+
+native/eigen/unsupported/Eigen/src/SpecialFunctions/SpecialFunctionsImpl.h
+/*
+    Cephes Math Library Release 2.2: June, 1992
+    Copyright 1985, 1987, 1992 by Stephen L. Moshier
+    Direct inquiries to 30 Frost Street, Cambridge, MA 02140
+  */
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/MINRES.h
+// Copyright (C) 2012 Giacomo Po <gpo@ucla.edu>
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/MINRES.h
+// Copyright (C) 2018 David Hyde <dabh@stanford.edu>
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IDRS.h
+// Copyright (C) 2020 Chris Schoutrop <c.e.m.schoutrop@tue.nl>
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IDRS.h
+// Copyright (C) 2020 Jens Wehner <j.wehner@esciencecenter.nl>
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IDRS.h
+// Copyright (C) 2020 Jan van Dijk <j.v.dijk@tue.nl>
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/GMRES.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IncompleteLU.h
+native/eigen/unsupported/Eigen/src/SparseExtra/MarketIO.h
+// Copyright (C) 2011 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/GMRES.h
+// Copyright (C) 2012, 2014 Kolja Brix <brix@igpm.rwth-aaachen.de>
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+// Copyright (C) 1997-2001
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+// You should have received a copy of the License Agreement for the
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+// file LICENSE.  
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+// the code was modified is included with the above COPYRIGHT NOTICE and
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+// with the COPYRIGHT NOTICE in the LICENSE file, and that the LICENSE
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+// PARTICULAR PURPOSE OR THAT THE USE OF THE LICENSED SOFTWARE COMPONENTS
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+// OR DOCUMENTATION WILL NOT INFRINGE ANY PATENTS, COPYRIGHTS, TRADEMARKS
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+// Copyright (C) 2002-2007 Yves Renard
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+// it under the terms of the GNU Lesser General Public License as
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+// published by the Free Software Foundation; version 2.1 of the License.
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+// GNU Lesser General Public License for more details.
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/IterationController.h
+native/eigen/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h
+// License along with this program; if not, write to the Free Software
+
+native/eigen/unsupported/Eigen/src/IterativeSolvers/Scaling.h
+// Copyright (C) 2012 Desire NUENTSA WAKAM <desire.nuentsa_wakam@inria.fr
+
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h
+// Copyright Jorge More - Argonne National Laboratory
+
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h
+// Copyright Burt Garbow - Argonne National Laboratory
+
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h
+// Copyright Ken Hillstrom - Argonne National Laboratory
+
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h
+// This Source Code Form is subject to the terms of the Minpack license
+
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h
+native/eigen/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h
+// (a BSD-like license) described in the campaigned CopyrightMINPACK.txt file.
+
+native/eigen/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h
+// Copyright (C) 2011 Kolja Brix <brix@igpm.rwth-aachen.de>
+
+native/eigen/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h
+// Copyright (C) 2011 Andreas Platen <andiplaten@gmx.de>
+
+native/eigen/unsupported/Eigen/src/FFT/ei_kissfft_impl.h
+// Copyright 2003-2009 Mark Borgerding
+
+native/eigen/unsupported/Eigen/src/SparseExtra/BlockSparseMatrix.h
+// Copyright (C) 2013 Desire Nuentsa <desire.nuentsa_wakam@inria.fr>
+
+native/eigen/unsupported/Eigen/src/SparseExtra/BlockSparseMatrix.h
+// Copyright (C) 2013 Gael Guennebaud <gael.guennebaud@inria.fr>
+
+native/eigen/unsupported/Eigen/src/SparseExtra/MatrixMarketIterator.h
+native/eigen/unsupported/Eigen/src/SparseExtra/MarketIO.h
+// Copyright (C) 2012 Desire NUENTSA WAKAM <desire.nuentsa_wakam@inria.fr>
+
+native/eigen/unsupported/Eigen/src/Eigenvalues/ArpackSelfAdjointEigenSolver.h
+// Copyright (C) 2012 David Harmon <dharmon@gmail.com>
+
+native/eigen/unsupported/Eigen/src/Skyline/SkylineInplaceLU.h
+// Copyright (C) 2008 Guillaume Saupin <guillaume.saupin@cea.fr>
+
+native/eigen/unsupported/Eigen/src/Skyline/SkylineUtil.h
+// Copyright (C) 2009 Guillaume Saupin <guillaume.saupin@cea.fr>
+
+native/eigen/unsupported/Eigen/src/Skyline/SkylineMatrixBase.h
+native/eigen/unsupported/Eigen/src/Skyline/SkylineProduct.h
+native/eigen/unsupported/Eigen/src/Skyline/SkylineStorage.h
+native/eigen/unsupported/Eigen/src/Skyline/SkylineMatrix.h
+// Copyright (C) 2008-2009 Guillaume Saupin <guillaume.saupin@cea.fr>
+
+native/eigen/unsupported/Eigen/CXX11/Tensor
+native/eigen/unsupported/Eigen/CXX11/TensorSymmetry
+native/eigen/unsupported/Eigen/CXX11/src/util/CXX11Workarounds.h
+native/eigen/unsupported/Eigen/CXX11/src/util/CXX11Meta.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/Tensor.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorStorage.h
+native/eigen/unsupported/Eigen/CXX11/src/TensorSymmetry/DynamicSymmetry.h
+native/eigen/unsupported/Eigen/CXX11/src/TensorSymmetry/StaticSymmetry.h
+native/eigen/unsupported/Eigen/CXX11/src/TensorSymmetry/Symmetry.h
+native/eigen/unsupported/Eigen/CXX11/src/TensorSymmetry/util/TemplateGroupTheory.h
+// Copyright (C) 2013 Christian Seiler <christian@iwakd.de>
+
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/NonBlockingThreadPool.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/RunQueue.h
+native/eigen/unsupported/Eigen/CXX11/src/ThreadPool/EventCount.h
+// Copyright (C) 2016 Dmitry Vyukov <dvyukov@google.com>
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorReverse.h
+// Copyright (C) 2014 Navdeep Jaitly <ndjaitly@google.com>
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContractionSycl.h
+// This Source Code Form is subject to the terms of the Mozilla Public License v. 2.0. If a copy of the MPL was not
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorReduction.h
+// Copyright (C) 2016 Mehdi Goli, Codeplay Software Ltd <eigen@codeplay.com>
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorScan.h
+// Copyright (C) 2016 Igor Babuschkin <igor@babuschk.in>
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaDefines.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorGpuHipCudaUndefines.h
+// Copyright (C) 2018 Deven Desai <deven.desai.amd@gmail.com>
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorRandom.h
+// Copyright (C) 2018 Mehdi Goli <eigen@codeplay.com> Codeplay Software Ltd.
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorTrace.h
+// Copyright (C) 2017 Gagan Goel <gagan.nith@gmail.com>
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorTrace.h
+// Copyright (C) 2017 Benoit Steiner <benoit.steiner.goog@gmail.com>
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContractionGpu.h
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorStorage.h
+// Copyright (C) 2014-2015 Benoit Steiner <benoit.steiner.goog@gmail.com>
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContractionGpu.h
+// Copyright (C) 2015 Navdeep Jaitly <ndjaitly@google.com>
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorContractionGpu.h
+// Copyright (C) 2014 Eric Martin <eric@ericmart.in>
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorFFT.h
+// Copyright (C) 2015 Jianwei Cui <thucjw@gmail.com>
+
+native/eigen/unsupported/Eigen/CXX11/src/Tensor/TensorInflation.h
+// Copyright (C) 2015 Ke Yang <yangke@gmail.com>
+
+native/knn/simple_knn.h
+native/knn/ext.cpp
+native/knn/spatial.h
+native/knn/spatial.cu
+native/knn/simple_knn.cu
+native/rasterizer/rasterize_points.cu
+native/rasterizer/rasterize_points.h
+native/rasterizer/ext.cpp
+native/rasterizer/cuda_rasterizer/backward.h
+native/rasterizer/cuda_rasterizer/forward.h
+native/rasterizer/cuda_rasterizer/auxiliary.h
+native/rasterizer/cuda_rasterizer/backward.cu
+native/rasterizer/cuda_rasterizer/rasterizer_impl.cu
+native/rasterizer/cuda_rasterizer/rasterizer_impl.h
+native/rasterizer/cuda_rasterizer/config.h
+native/rasterizer/cuda_rasterizer/rasterizer.h
+native/rasterizer/cuda_rasterizer/forward.cu
+/*
+ * Copyright (C) 2023, Inria
+ * GRAPHDECO research group, https://team.inria.fr/graphdeco
+ * All rights reserved.
+ *
+ * This software is free for non-commercial, research and evaluation use 
+ * under the terms of the LICENSE.md file.
+ *
+ * For inquiries contact  george.drettakis@inria.fr
+ */
+
+native/rasterizer/cuda_rasterizer/helper_math.h
+/* Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *  * Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *  * Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *  * Neither the name of NVIDIA CORPORATION nor the names of its
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS'' AND ANY
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+ * OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+native/rasterizer/third_party/stbi_image_write.h
+/* stb_image_write - v1.16 - public domain - http://nothings.org/stb
+   writes out PNG/BMP/TGA/JPEG/HDR images to C stdio - Sean Barrett 2010-2015
+                                     no warranty implied; use at your own risk
+
+   Before #including,
+
+       #define STB_IMAGE_WRITE_IMPLEMENTATION
+
+   in the file that you want to have the implementation.
+
+   Will probably not work correctly with strict-aliasing optimizations.
+
+ABOUT:
+
+   This header file is a library for writing images to C stdio or a callback.
+
+   The PNG output is not optimal; it is 20-50% larger than the file
+   written by a decent optimizing implementation; though providing a custom
+   zlib compress function (see STBIW_ZLIB_COMPRESS) can mitigate that.
+   This library is designed for source code compactness and simplicity,
+   not optimal image file size or run-time performance.
+
+BUILDING:
+
+   You can #define STBIW_ASSERT(x) before the #include to avoid using assert.h.
+   You can #define STBIW_MALLOC(), STBIW_REALLOC(), and STBIW_FREE() to replace
+   malloc,realloc,free.
+   You can #define STBIW_MEMMOVE() to replace memmove()
+   You can #define STBIW_ZLIB_COMPRESS to use a custom zlib-style compress function
+   for PNG compression (instead of the builtin one), it must have the following signature:
+   unsigned char * my_compress(unsigned char *data, int data_len, int *out_len, int quality);
+   The returned data will be freed with STBIW_FREE() (free() by default),
+   so it must be heap allocated with STBIW_MALLOC() (malloc() by default),
+
+UNICODE:
+
+   If compiling for Windows and you wish to use Unicode filenames, compile
+   with
+       #define STBIW_WINDOWS_UTF8
+   and pass utf8-encoded filenames. Call stbiw_convert_wchar_to_utf8 to convert
+   Windows wchar_t filenames to utf8.
+
+USAGE:
+
+   There are five functions, one for each image file format:
+
+     int stbi_write_png(char const *filename, int w, int h, int comp, const void *data, int stride_in_bytes);
+     int stbi_write_bmp(char const *filename, int w, int h, int comp, const void *data);
+     int stbi_write_tga(char const *filename, int w, int h, int comp, const void *data);
+     int stbi_write_jpg(char const *filename, int w, int h, int comp, const void *data, int quality);
+     int stbi_write_hdr(char const *filename, int w, int h, int comp, const float *data);
+
+     void stbi_flip_vertically_on_write(int flag); // flag is non-zero to flip data vertically
+
+   There are also five equivalent functions that use an arbitrary write function. You are
+   expected to open/close your file-equivalent before and after calling these:
+
+     int stbi_write_png_to_func(stbi_write_func *func, void *context, int w, int h, int comp, const void  *data, int stride_in_bytes);
+     int stbi_write_bmp_to_func(stbi_write_func *func, void *context, int w, int h, int comp, const void  *data);
+     int stbi_write_tga_to_func(stbi_write_func *func, void *context, int w, int h, int comp, const void  *data);
+     int stbi_write_hdr_to_func(stbi_write_func *func, void *context, int w, int h, int comp, const float *data);
+     int stbi_write_jpg_to_func(stbi_write_func *func, void *context, int x, int y, int comp, const void *data, int quality);
+
+   where the callback is:
+      void stbi_write_func(void *context, void *data, int size);
+
+   You can configure it with these global variables:
+      int stbi_write_tga_with_rle;             // defaults to true; set to 0 to disable RLE
+      int stbi_write_png_compression_level;    // defaults to 8; set to higher for more compression
+      int stbi_write_force_png_filter;         // defaults to -1; set to 0..5 to force a filter mode
+
+
+   You can define STBI_WRITE_NO_STDIO to disable the file variant of these
+   functions, so the library will not use stdio.h at all. However, this will
+   also disable HDR writing, because it requires stdio for formatted output.
+
+   Each function returns 0 on failure and non-0 on success.
+
+   The functions create an image file defined by the parameters. The image
+   is a rectangle of pixels stored from left-to-right, top-to-bottom.
+   Each pixel contains 'comp' channels of data stored interleaved with 8-bits
+   per channel, in the following order: 1=Y, 2=YA, 3=RGB, 4=RGBA. (Y is
+   monochrome color.) The rectangle is 'w' pixels wide and 'h' pixels tall.
+   The *data pointer points to the first byte of the top-left-most pixel.
+   For PNG, "stride_in_bytes" is the distance in bytes from the first byte of
+   a row of pixels to the first byte of the next row of pixels.
+
+   PNG creates output files with the same number of components as the input.
+   The BMP format expands Y to RGB in the file format and does not
+   output alpha.
+
+   PNG supports writing rectangles of data even when the bytes storing rows of
+   data are not consecutive in memory (e.g. sub-rectangles of a larger image),
+   by supplying the stride between the beginning of adjacent rows. The other
+   formats do not. (Thus you cannot write a native-format BMP through the BMP
+   writer, both because it is in BGR order and because it may have padding
+   at the end of the line.)
+
+   PNG allows you to set the deflate compression level by setting the global
+   variable 'stbi_write_png_compression_level' (it defaults to 8).
+
+   HDR expects linear float data. Since the format is always 32-bit rgb(e)
+   data, alpha (if provided) is discarded, and for monochrome data it is
+   replicated across all three channels.
+
+   TGA supports RLE or non-RLE compressed data. To use non-RLE-compressed
+   data, set the global variable 'stbi_write_tga_with_rle' to 0.
+
+   JPEG does ignore alpha channels in input data; quality is between 1 and 100.
+   Higher quality looks better but results in a bigger image.
+   JPEG baseline (no JPEG progressive).
+
+CREDITS:
+
+
+   Sean Barrett           -    PNG/BMP/TGA
+   Baldur Karlsson        -    HDR
+   Jean-Sebastien Guay    -    TGA monochrome
+   Tim Kelsey             -    misc enhancements
+   Alan Hickman           -    TGA RLE
+   Emmanuel Julien        -    initial file IO callback implementation
+   Jon Olick              -    original jo_jpeg.cpp code
+   Daniel Gibson          -    integrate JPEG, allow external zlib
+   Aarni Koskela          -    allow choosing PNG filter
+
+   bugfixes:
+      github:Chribba
+      Guillaume Chereau
+      github:jry2
+      github:romigrou
+      Sergio Gonzalez
+      Jonas Karlsson
+      Filip Wasil
+      Thatcher Ulrich
+      github:poppolopoppo
+      Patrick Boettcher
+      github:xeekworx
+      Cap Petschulat
+      Simon Rodriguez
+      Ivan Tikhonov
+      github:ignotion
+      Adam Schackart
+      Andrew Kensler
+
+LICENSE
+
+  See end of file for license information.
+
+*/
+
+native/rasterizer/third_party/stbi_image_write.h
+/*
+------------------------------------------------------------------------------
+This software is available under 2 licenses -- choose whichever you prefer.
+------------------------------------------------------------------------------
+ALTERNATIVE A - MIT License
+Copyright (c) 2017 Sean Barrett
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+------------------------------------------------------------------------------
+ALTERNATIVE B - Public Domain (www.unlicense.org)
+This is free and unencumbered software released into the public domain.
+Anyone is free to copy, modify, publish, use, compile, sell, or distribute this
+software, either in source code form or as a compiled binary, for any purpose,
+commercial or non-commercial, and by any means.
+In jurisdictions that recognize copyright laws, the author or authors of this
+software dedicate any and all copyright interest in the software to the public
+domain. We make this dedication for the benefit of the public at large and to
+the detriment of our heirs and successors. We intend this dedication to be an
+overt act of relinquishment in perpetuity of all present and future rights to
+this software under copyright law.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+------------------------------------------------------------------------------
+*/
+
+native/rasterizer/third_party/glm/glm/ext/scalar_ulp.inl
+/// Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
+
+#
+# Copyright (C) 2023, Inria
+# GRAPHDECO research group, https://team.inria.fr/graphdeco
+# All rights reserved.
+#
+# This software is free for non-commercial, research and evaluation use
+# under the terms of the LICENSE.md file.
+#
+# For inquiries contact  george.drettakis@inria.fr
+#
+
+#
+# Copyright (C) 2023, Inria
+# GRAPHDECO research group, https://team.inria.fr/graphdeco
+# All rights reserved.
+#
+# This software is free for non-commercial, research and evaluation use 
+# under the terms of the LICENSE.md file.
+#
+# For inquiries contact  george.drettakis@inria.fr
+#
+
+#  Copyright 2021 The PlenOctree Authors.
+#  Redistribution and use in source and binary forms, with or without
+#  modification, are permitted provided that the following conditions are met:
+#
+#  1. Redistributions of source code must retain the above copyright notice,
+#  this list of conditions and the following disclaimer.
+#
+#  2. Redistributions in binary form must reproduce the above copyright notice,
+#  this list of conditions and the following disclaimer in the documentation
+#  and/or other materials provided with the distribution.
+#
+#  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+#  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+#  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+#  ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+#  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+#  CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+#  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+#  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+#  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+#  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+#  POSSIBILITY OF SUCH DAMAGE.

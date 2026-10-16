@@ -1,0 +1,13 @@
+#ifndef EIGEN_SPARSEQR_MODULE_H
+#define EIGEN_SPARSEQR_MODULE_H
+
+#include "SparseCore"
+#include "OrderingMethods"
+#include "src/Core/util/DisableStupidWarnings.h"
+
+#include "src/SparseCore/SparseColEtree.h"
+#include "src/SparseQR/SparseQR.h"
+
+#include "src/Core/util/ReenableStupidWarnings.h"
+
+#endif

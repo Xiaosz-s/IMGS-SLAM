@@ -1,0 +1,16 @@
+#ifndef EIGEN_UMFPACKSUPPORT_MODULE_H
+#define EIGEN_UMFPACKSUPPORT_MODULE_H
+
+#include "SparseCore"
+
+#include "src/Core/util/DisableStupidWarnings.h"
+
+extern "C" {
+#include <umfpack.h>
+}
+
+#include "src/UmfPackSupport/UmfPackSupport.h"
+
+#include "src/Core/util/ReenableStupidWarnings.h"
+
+#endif 

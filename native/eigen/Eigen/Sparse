@@ -1,0 +1,12 @@
+#ifndef EIGEN_SPARSE_MODULE_H
+#define EIGEN_SPARSE_MODULE_H
+
+#include "SparseCore"
+#include "OrderingMethods"
+#include "SparseCholesky"
+#include "SparseLU"
+#include "SparseQR"
+#include "IterativeLinearSolvers"
+
+#endif 
+

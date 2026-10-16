@@ -10,3 +10,5 @@ datasets/
 pretrained_models/
 .DS_Store
 03_Datasets
+config.yaml
+config.yml

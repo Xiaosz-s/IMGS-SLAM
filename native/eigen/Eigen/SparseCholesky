@@ -1,0 +1,13 @@
+#ifndef EIGEN_SPARSECHOLESKY_MODULE_H
+#define EIGEN_SPARSECHOLESKY_MODULE_H
+
+#include "SparseCore"
+#include "OrderingMethods"
+
+#include "src/Core/util/DisableStupidWarnings.h"
+
+#include "src/SparseCholesky/SimplicialCholesky.h"
+#include "src/SparseCholesky/SimplicialCholesky_impl.h"
+#include "src/Core/util/ReenableStupidWarnings.h"
+
+#endif 

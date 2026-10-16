@@ -1,0 +1,31 @@
+#ifndef EIGEN_SUPERLUSUPPORT_MODULE_H
+#define EIGEN_SUPERLUSUPPORT_MODULE_H
+
+#include "SparseCore"
+
+#include "src/Core/util/DisableStupidWarnings.h"
+
+#ifdef EMPTY
+#define EIGEN_EMPTY_WAS_ALREADY_DEFINED
+#endif
+
+typedef int int_t;
+#include <slu_Cnames.h>
+#include <supermatrix.h>
+#include <slu_util.h>
+
+#if defined(EIGEN_EMPTY_WAS_ALREADY_DEFINED)
+# undef EIGEN_EMPTY_WAS_ALREADY_DEFINED
+#elif defined(EMPTY)
+# undef EMPTY
+#endif
+
+#define SUPERLU_EMPTY (-1)
+
+namespace Eigen { struct SluMatrix; }
+
+#include "src/SuperLUSupport/SuperLUSupport.h"
+
+#include "src/Core/util/ReenableStupidWarnings.h"
+
+#endif 

@@ -1,0 +1,13 @@
+#ifndef EIGEN_JACOBI_MODULE_H
+#define EIGEN_JACOBI_MODULE_H
+
+#include "Core"
+
+#include "src/Core/util/DisableStupidWarnings.h"
+
+#include "src/Jacobi/Jacobi.h"
+
+#include "src/Core/util/ReenableStupidWarnings.h"
+
+#endif 
+

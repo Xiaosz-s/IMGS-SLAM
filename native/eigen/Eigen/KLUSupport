@@ -1,0 +1,17 @@
+#ifndef EIGEN_KLUSUPPORT_MODULE_H
+#define EIGEN_KLUSUPPORT_MODULE_H
+
+#include <Eigen/SparseCore>
+
+#include <Eigen/src/Core/util/DisableStupidWarnings.h>
+
+extern "C" {
+#include <btf.h>
+#include <klu.h>
+   }
+
+#include "src/KLUSupport/KLUSupport.h"
+
+#include <Eigen/src/Core/util/ReenableStupidWarnings.h>
+
+#endif 

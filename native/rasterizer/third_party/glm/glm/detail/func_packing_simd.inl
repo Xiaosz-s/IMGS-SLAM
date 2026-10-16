@@ -1,0 +1,6 @@
+namespace glm{
+namespace detail
+{
+
+}
+}

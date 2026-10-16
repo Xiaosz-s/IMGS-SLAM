@@ -1,0 +1,44 @@
+#pragma once
+
+#include "../mat3x4.hpp"
+#include "../ext/scalar_int_sized.hpp"
+
+#if GLM_MESSAGES == GLM_ENABLE && !defined(GLM_EXT_INCLUDED)
+#	pragma message("GLM: GLM_EXT_matrix_int3x4_sized extension included")
+#endif
+
+namespace glm
+{
+
+	typedef mat<3, 4, int8, defaultp>				i8mat3x4;
+
+	typedef mat<3, 4, int16, defaultp>				i16mat3x4;
+
+	typedef mat<3, 4, int32, defaultp>				i32mat3x4;
+
+	typedef mat<3, 4, int64, defaultp>				i64mat3x4;
+
+}
+
+#if GLM_CONFIG_CTOR_INIT == GLM_DISABLE
+static_assert(std::is_trivially_default_constructible<glm::i8mat3x4>::value);
+static_assert(std::is_trivially_default_constructible<glm::i16mat3x4>::value);
+static_assert(std::is_trivially_default_constructible<glm::i32mat3x4>::value);
+static_assert(std::is_trivially_default_constructible<glm::i64mat3x4>::value);
+#endif
+static_assert(std::is_trivially_copy_assignable<glm::i8mat3x4>::value);
+static_assert(std::is_trivially_copy_assignable<glm::i16mat3x4>::value);
+static_assert(std::is_trivially_copy_assignable<glm::i32mat3x4>::value);
+static_assert(std::is_trivially_copy_assignable<glm::i64mat3x4>::value);
+static_assert(std::is_trivially_copyable<glm::i8mat3x4>::value);
+static_assert(std::is_trivially_copyable<glm::i16mat3x4>::value);
+static_assert(std::is_trivially_copyable<glm::i32mat3x4>::value);
+static_assert(std::is_trivially_copyable<glm::i64mat3x4>::value);
+static_assert(std::is_copy_constructible<glm::i8mat3x4>::value);
+static_assert(std::is_copy_constructible<glm::i16mat3x4>::value);
+static_assert(std::is_copy_constructible<glm::i32mat3x4>::value);
+static_assert(std::is_copy_constructible<glm::i64mat3x4>::value);
+static_assert(glm::i8mat3x4::length() == 3);
+static_assert(glm::i16mat3x4::length() == 3);
+static_assert(glm::i32mat3x4::length() == 3);
+static_assert(glm::i64mat3x4::length() == 3);

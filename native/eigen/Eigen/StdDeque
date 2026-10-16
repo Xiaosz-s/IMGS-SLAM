@@ -1,0 +1,17 @@
+#ifndef EIGEN_STDDEQUE_MODULE_H
+#define EIGEN_STDDEQUE_MODULE_H
+
+#include "Core"
+#include <deque>
+
+#if EIGEN_COMP_MSVC && EIGEN_OS_WIN64 && (EIGEN_MAX_STATIC_ALIGN_BYTES<=16) 
+
+#define EIGEN_DEFINE_STL_DEQUE_SPECIALIZATION(...)
+
+#else
+
+#include "src/StlSupport/StdDeque.h"
+
+#endif
+
+#endif 

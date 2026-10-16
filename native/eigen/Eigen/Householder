@@ -1,0 +1,14 @@
+#ifndef EIGEN_HOUSEHOLDER_MODULE_H
+#define EIGEN_HOUSEHOLDER_MODULE_H
+
+#include "Core"
+
+#include "src/Core/util/DisableStupidWarnings.h"
+
+#include "src/Householder/Householder.h"
+#include "src/Householder/HouseholderSequence.h"
+#include "src/Householder/BlockHouseholder.h"
+
+#include "src/Core/util/ReenableStupidWarnings.h"
+
+#endif 

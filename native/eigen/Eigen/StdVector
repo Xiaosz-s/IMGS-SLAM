@@ -1,0 +1,17 @@
+#ifndef EIGEN_STDVECTOR_MODULE_H
+#define EIGEN_STDVECTOR_MODULE_H
+
+#include "Core"
+#include <vector>
+
+#if EIGEN_COMP_MSVC && EIGEN_OS_WIN64 && (EIGEN_MAX_STATIC_ALIGN_BYTES<=16) 
+
+#define EIGEN_DEFINE_STL_VECTOR_SPECIALIZATION(...)
+
+#else
+
+#include "src/StlSupport/StdVector.h"
+
+#endif
+
+#endif 
