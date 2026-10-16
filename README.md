@@ -10,6 +10,29 @@ IMGS-SLAM: Monocular Gaussian Splatting SLAM for Indoor Reconstruction.
 
 IMGS-SLAM focuses on monocular indoor scene understanding and reconstruction with Gaussian representations. The method is designed to jointly support camera tracking, dense mapping, and high-quality scene reconstruction within a unified SLAM framework.
 
+## Code
+
+<details>
+<summary>Show / hide code</summary>
+
+- [SLAM implementation](slam)
+- [CUDA extensions](native)
+- [Entry point](run.py)
+- [Build script](build.py)
+- [Dependencies](requirements.txt)
+
+```text
+├── run.py
+├── build.py
+├── parameters.py
+├── requirements.txt
+├── slam/
+├── native/
+└── licenses/
+```
+
+</details>
+
 ## Visual Results
 
 <p align="center">
